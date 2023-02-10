@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 
 
-I'm Muhammed Elyamani an AI Engineer from Egypt with a passion for software development and integrating AI models into powerful applications.
+I'm Muhammed Elyamani. AI Engineer from Egypt with a passion for software development and integrating AI models into powerful applications.
 
 - 🔭 I'm currently working on [kv_tflite](https://github.com/WikiGenius/kv_tflite).
 
