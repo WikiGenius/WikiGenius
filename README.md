@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 
 I'm Muhammed Elyamani. AI Engineer with master's degree from Ottawa. I'm from Egypt with a passion for software development and integrating AI models into powerful applications.
 
-- 🔭 I'm currently working on [kv_tflite](https://github.com/WikiGenius/kv_tflite).
+- 🔭 I'm currently working on [SearchApp](https://github.com/WikiGenius/SearchApp.git).
 
 I am always eager to learn new technologies and develop my skills.
 
