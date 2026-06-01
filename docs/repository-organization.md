@@ -4,7 +4,7 @@ This document organizes the GitHub account around the research identity:
 
 > Structure-aware planning and control for mobile manipulation, where robot motion is designed not only to reach a target but also to actively acquire useful visual or spectral information under physical, geometric, sensing, and uncertainty constraints.
 
-The account should have two layers:
+The account has two layers:
 
 1. **Private research layer** - unpublished algorithms, datasets, experiments, paper drafts, and sensitive research code.
 2. **Public portfolio layer** - polished evidence that demonstrates capability without leaking publishable novelty.
@@ -20,7 +20,8 @@ Use private repositories for:
 - raw RGB/hyperspectral datasets,
 - experiment logs, ablation studies, and parameter sweeps,
 - internal notes, drafts, figures, and reviewer-response work,
-- code that reveals the exact method before publication.
+- code that reveals the exact method before publication,
+- applied CV/AI prototypes that include private data, client work, or unfinished product ideas.
 
 Suggested private naming pattern:
 
@@ -77,7 +78,6 @@ This proves the robot execution layer.
 | `ros2-mobile-robotics-labs` | Public core | Keep pinned. Add ROS2 labs that support the main research direction. |
 | `hello_world_ros2_edx` | Public support | Keep public as learning/migration evidence. Do not pin. |
 | `ros_project` | Legacy support | Either polish as legacy ROS perception/autonomy demo or archive. |
-| `Persolkelly_robot` | Legacy/support | Keep private or archive unless it supports current robotics story. |
 
 ### 3. State Estimation / SLAM / Uncertainty
 
@@ -99,25 +99,22 @@ This proves the control foundation.
 
 | Repo | Status | Action |
 |---|---|---|
-| `robotics-control-learning-labs` | Public core | Keep pinned until `wmm-trajectory-tracking` is polished. |
-| `wmm-trajectory-tracking` | High-value support | Polish README/results. Consider pinning after cleanup. |
+| `robotics-control-learning-labs` | Public core | Keep pinned until a stronger research-control artifact is polished. |
+| `wmm-trajectory-tracking` | High-value support | Keep public only if it is a simplified portfolio artifact; keep private if it contains unpublished methods/results. |
 | `RoboticScrewTheoryToolkit` | High-value support | Rename to `robotic-screw-theory-toolkit`; add examples/results. |
 | `Cruise_control` | Public support | Add README/results and relate to mobile robot control. |
 | `3dof-robot-arm-report` | Public support | Add report PDF, abstract, and figures if available. |
-| `ipendulum` | Private/control | Keep private if it contains unpublished control work. |
 
 ### 5. Computer Vision / AI Prototypes
 
 These support the perception background but should not dominate the robotics profile.
 
-| Repo | Status | Action |
+| Category | Status | Action |
 |---|---|---|
-| `ElYamani_OCR` | Private | Keep private unless cleaned as a separate applied-CV portfolio project. |
-| `Image2Text` | Private | Keep private. |
-| `SignLingua` | Private | Keep private unless ready as product/demo evidence. |
-| `kv_tflite`, `kv_yolov8`, `yolo_nas_tflite` | Mixed | Keep private or public only if documented as deployment experiments. |
-| `CrowdScope`, `StreetStat`, `SearchApp`, `InsightMate` | Public/product | Move into an "Applied AI / CV prototypes" section if polished; otherwise archive. |
-| `jaws_segmentation`, `fix-derived-dicom2nifti` | Domain-specific | Keep public only if documented; otherwise archive/private. |
+| OCR / document-understanding prototypes | Private or polished public | Keep private unless cleaned as applied-CV portfolio demos. |
+| YOLO / TFLite deployment experiments | Mixed | Keep private or public only if documented as deployment experiments. |
+| Crowd/street/search/product prototypes | Public/product | Move into an Applied AI / CV prototypes section if polished; otherwise archive. |
+| Domain-specific segmentation or medical-imaging utilities | Mixed | Keep public only if documented; otherwise archive/private. |
 
 ### 6. Forks and Reference Repositories
 
@@ -165,7 +162,7 @@ Recommended pinned repositories:
 1. `line-scan-mobile-manipulator-demo`
 2. `ros2-moveit-grasping-demo`
 3. `GTSAM_SLAM_VISION`
-4. `robotics-control-learning-labs` for now; later replace with `wmm-trajectory-tracking` when polished
+4. `robotics-control-learning-labs` for now; later replace with a polished research-control artifact if appropriate
 5. `ros2-mobile-robotics-labs`
 6. `research-reading-map`
 
@@ -231,7 +228,7 @@ When a paper or experiment is ready to expose:
 ## Immediate Cleanup Checklist
 
 - [ ] Add topics to the six pinned repositories.
-- [ ] Polish `wmm-trajectory-tracking` README and decide whether to pin it.
+- [ ] Polish `wmm-trajectory-tracking` README and decide whether it should remain public.
 - [ ] Add README files to `orb_slam_demo` and `nerf-lab`.
 - [ ] Archive unmodified forks that are not actively used.
 - [ ] Archive or hide old coursework repositories.
