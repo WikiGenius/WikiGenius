@@ -40,22 +40,25 @@ Key constraints include:
 ### Active Scanning and Coverage Planning
 
 - [`line-scan-mobile-manipulator-demo`](https://github.com/WikiGenius/line-scan-mobile-manipulator-demo) - public scaffold for line-scan-aware active scanning with a mobile manipulator.
-- [`research-reading-map`](https://github.com/WikiGenius/research-reading-map) - reading map for mobile manipulation, active perception, coverage planning, and state estimation.
+- [`research-reading-map`](https://github.com/WikiGenius/research-reading-map) - reading and architecture map for mobile manipulation, active perception, coverage planning, state estimation, and control.
 
 ### Mobile Manipulation Execution
 
 - [`ros2-moveit-grasping-demo`](https://github.com/WikiGenius/ros2-moveit-grasping-demo) - ROS2 / MoveIt2 Cartesian approach, gripper control, grasping, and retreat demo.
 - [`ros2-mobile-robotics-labs`](https://github.com/WikiGenius/ros2-mobile-robotics-labs) - ROS2 Humble learning labs for mobile robotics workflows.
 
-### State Estimation and SLAM
+### State Estimation, SLAM, and 3D Perception
 
 - [`GTSAM_SLAM_VISION`](https://github.com/WikiGenius/GTSAM_SLAM_VISION) - visual pose estimation and factor-graph SLAM experiments in MATLAB.
-- Supporting work includes ORB-SLAM, NeRF/SLAM, RealSense, and factor-graph study repositories.
+- [`orb_slam_demo`](https://github.com/WikiGenius/orb_slam_demo) - ROS2 scaffold for ORB-SLAM-style visual state-estimation demos.
+- [`nerf-lab`](https://github.com/WikiGenius/nerf-lab) - NeRF / ray-based perception lab for view synthesis, 3D representation, and active-perception intuition.
 
 ### Control and Robotics Foundations
 
 - [`robotics-control-learning-labs`](https://github.com/WikiGenius/robotics-control-learning-labs) - reproducible control labs for state-space modeling, LQR, observers, and MATLAB/Simulink.
-- Supporting work includes trajectory tracking, screw theory, cruise control, and robot-arm report repositories.
+- [`wmm-trajectory-tracking`](https://github.com/WikiGenius/wmm-trajectory-tracking) - whole-body mobile-manipulator trajectory tracking support.
+- [`RoboticScrewTheoryToolkit`](https://github.com/WikiGenius/RoboticScrewTheoryToolkit) - screw theory, Jacobians, and robot kinematics foundations.
+- [`Cruise_control`](https://github.com/WikiGenius/Cruise_control) and [`3dof-robot-arm-report`](https://github.com/WikiGenius/3dof-robot-arm-report) - supporting control/report artifacts.
 
 ## Public vs Private Policy
 
@@ -75,7 +78,8 @@ Key constraints include:
 - raw datasets and experiment logs,
 - hyperspectral/RGB data that may have sharing limits,
 - parameter sweeps and ablation studies,
-- drafts, figures, and reviewer-response experiments.
+- drafts, figures, and reviewer-response experiments,
+- private inverted-pendulum/control experiments until they can be distilled safely.
 
 When research is ready, a private repository can be distilled into a public release repo with a clean README, citation, license/notice, reproducible scripts, selected results, and a paper/report link.
 
@@ -84,7 +88,7 @@ When research is ready, a private repository can be distilled into a public rele
 **Robotics:** ROS2, MoveIt2, Gazebo, RViz  
 **Control:** MATLAB, Simulink, state-space control, LQR, observers  
 **Estimation:** GTSAM, factor graphs, visual pose estimation, SLAM  
-**Perception:** RGB, hyperspectral / line-scan-inspired sensing, computer vision  
+**Perception:** RGB, hyperspectral / line-scan-inspired sensing, computer vision, NeRF/view synthesis  
 **Programming:** Python, C++, MATLAB  
 **Research Tools:** LaTeX, Git, experiment logs, paper reading maps
 
@@ -99,4 +103,4 @@ Convert learning and implementation work into a coherent research portfolio:
 - technical reports and paper links,
 - a clear path from robotics theory to runnable systems.
 
-See [`docs/repository-organization.md`](docs/repository-organization.md) for the repository organization map.
+See [`docs/repository-organization.md`](docs/repository-organization.md) for the repository organization map and [`docs/research-repo-families.md`](docs/research-repo-families.md) for the cross-repo family structure.
