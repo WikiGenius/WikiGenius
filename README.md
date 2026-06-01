@@ -1,36 +1,59 @@
-### Hi there 👋
+# Muhammed Elyamani
 
-<!--
-**WikiGenius/WikiGenius** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+PhD researcher in Electrical Engineering at KFUPM, working at the intersection of robotics, control, motion planning, and state estimation.
 
-Here are some ideas to get you started:
+My current research direction focuses on **structure-aware planning and active sensing for mobile manipulators**, with an emphasis on line-scan / inspection-oriented robotic motion under geometric, visibility, and uncertainty constraints.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Research Interests
 
+- Mobile manipulation and motion planning
+- State estimation and factor graphs
+- Robotics control and real-time trajectory execution
+- Active sensing and visual inspection
+- ROS2, MoveIt, Gazebo/Isaac-style simulation
+- MATLAB/Python/C++ for robotics and control
 
+## Current Direction
 
-I'm Muhammed Elyamani. AI Engineer with master's degree from Ottawa. I'm from Egypt with a passion for software development and integrating AI models into powerful applications.
+I am building a research pipeline around:
 
-- 🔭 I'm currently working on [SignLingua](https://github.com/WikiGenius/SignLingua.git).
+**Line-scan-aware active scanning for mobile manipulators**
 
-I am always eager to learn new technologies and develop my skills.
+The goal is to develop planning and control methods that allow a mobile manipulator to scan objects or surfaces while respecting:
 
-If you're interested in learning more about my work, take a look at my repositories or feel free to reach out to me with any questions or comments. I'd love to hear from you!
+- camera visibility constraints,
+- line-scan sensing geometry,
+- robot kinematic constraints,
+- coverage quality,
+- collision avoidance,
+- pose uncertainty.
 
-Thank you for visiting my GitHub profile.
+## Selected Projects
 
-📈 my github stats
+### ROS2 / MoveIt Mobile Manipulation
+Motion planning and task execution examples for arm control, Cartesian motion, grasping, and retreat behaviors.
 
-![Muhammed Elyamani's GitHub stats](https://github-readme-stats.vercel.app/api?username=WikiGenius&count_private=true)
+### Factor Graph SLAM / Visual Estimation
+MATLAB-based experiments with GTSAM-style factor graph modeling, camera pose estimation, homography, and projection constraints.
 
-Best regards,
+### Robotics Control Simulations
+Control-oriented simulations in MATLAB/Simulink, including cruise control, dynamic modeling, and closed-loop analysis.
 
-M. Eng Muhammed Elyamani
+## Technical Stack
+
+**Robotics:** ROS2, MoveIt, Gazebo, RViz  
+**Control:** MATLAB, Simulink, state-space control, LQR, observers  
+**Estimation:** GTSAM, factor graphs, visual pose estimation  
+**Programming:** Python, C++, MATLAB  
+**Research Tools:** LaTeX, Git, Zotero, experiment logs
+
+## Current Goal
+
+My current focus is to convert learning and implementation work into reproducible research artifacts:
+
+- clean GitHub repositories,
+- technical reports,
+- simulation demos,
+- experiment logs,
+- paper drafts,
+- publishable robotics research.
