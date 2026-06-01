@@ -9,6 +9,29 @@ The account has two layers:
 1. **Private research layer** - unpublished algorithms, datasets, experiments, paper drafts, and sensitive research code.
 2. **Public portfolio layer** - polished evidence that demonstrates capability without leaking publishable novelty.
 
+## Current Public Shape
+
+The public active repository set is intentionally small. Archived repositories are preserved as history, references, or old learning work, but they are not part of the main public research story.
+
+Current active public repositories:
+
+| Repo | Role |
+|---|---|
+| `WikiGenius` | Profile README and organization map. |
+| `line-scan-mobile-manipulator-demo` | Main public scaffold for structure-aware line-scan / RGB-hyperspectral active scanning. |
+| `ros2-moveit-grasping-demo` | ROS2 / MoveIt2 mobile-manipulation execution evidence. |
+| `GTSAM_SLAM_VISION` | Factor-graph visual SLAM and state-estimation evidence. |
+| `robotics-control-learning-labs` | Public control-foundation lab scaffold. |
+| `ros2-mobile-robotics-labs` | Public ROS2 mobile-robotics learning scaffold. |
+| `research-reading-map` | Research reading map for active perception, coverage planning, estimation, and control. |
+| `wmm-trajectory-tracking` | Public trajectory-tracking / control support artifact. |
+| `RoboticScrewTheoryToolkit` | Robotics math, screw theory, kinematics, and Jacobian support artifact. |
+| `Cruise_control` | MATLAB/Simulink control and mobile-robot energy artifact. |
+| `3dof-robot-arm-report` | LaTeX technical report for robot-arm modeling and control. |
+| `nerf-lab` | NeRF / neural mapping support lab for 3D perception and SLAM intuition. |
+| `orb_slam_demo` | ROS2 scaffold for ORB-SLAM-style visual state-estimation demos. |
+| `hello_world_ros2_edx` | ROS2 Humble migration/learning evidence from ROS1 course concepts. |
+
 ## Public vs Private Rule
 
 ### Keep Private
@@ -63,8 +86,8 @@ This is the main research identity.
 
 | Repo | Status | Action |
 |---|---|---|
-| `line-scan-mobile-manipulator-demo` | Public core | Keep pinned. Add simplified planner, figures, demo GIF, and public metrics. |
-| `research-reading-map` | Public core | Keep pinned. Add paper taxonomy for active perception, coverage planning, and state estimation. |
+| `line-scan-mobile-manipulator-demo` | Public core, pinned | Add simplified planner, figures, demo GIF, and public metrics. |
+| `research-reading-map` | Public core, pinned | Add paper taxonomy for active perception, coverage planning, and state estimation. |
 
 Keep unpublished HSI/RGB scanning code private until paper-ready.
 
@@ -74,10 +97,11 @@ This proves the robot execution layer.
 
 | Repo | Status | Action |
 |---|---|---|
-| `ros2-moveit-grasping-demo` | Public core | Keep pinned. Add launch workflow, screenshots, and execution metrics. |
-| `ros2-mobile-robotics-labs` | Public core | Keep pinned. Add ROS2 labs that support the main research direction. |
-| `hello_world_ros2_edx` | Public support | Keep public as learning/migration evidence. Do not pin. |
-| `ros_project` | Legacy support | Either polish as legacy ROS perception/autonomy demo or archive. |
+| `ros2-moveit-grasping-demo` | Public core, pinned | Add launch workflow, screenshots, and execution metrics. |
+| `ros2-mobile-robotics-labs` | Public core, pinned | Add ROS2 labs that support the main research direction. |
+| `hello_world_ros2_edx` | Public support | Keep as learning/migration evidence. Do not pin. |
+
+Legacy ROS/perception projects are archived until they are polished into public-safe portfolio artifacts.
 
 ### 3. State Estimation / SLAM / Uncertainty
 
@@ -85,13 +109,11 @@ This supports the estimation part of the research program.
 
 | Repo | Status | Action |
 |---|---|---|
-| `GTSAM_SLAM_VISION` | Public core | Keep pinned. Add figures, reproducible sample, and factor graph notes. |
-| `orb_slam_demo` | Public support | Add README and clarify relation to state estimation. |
-| `nerf-lab` | Public support | Add README and clarify relation to neural mapping / 3D perception. |
-| `NeRF-SLAM` | Fork/reference | Keep only if actively used; otherwise archive as reference. |
-| `gtsam` | Fork/reference | Keep only if modified; otherwise archive or leave unpinned. |
-| `factor-graphs-course` | Fork/reference | Keep as study reference, not portfolio evidence. |
-| `realsense-ros`, `realsense2_description`, `realsense_gazebo_plugin` | Fork/reference | Keep if used in scanning pipeline; otherwise archive/unpin. |
+| `GTSAM_SLAM_VISION` | Public core, pinned | Add figures, reproducible sample, and factor graph notes. |
+| `orb_slam_demo` | Public support | Add launch/demo workflow when ready. |
+| `nerf-lab` | Public support | Add toy rendering examples and 3D perception notes. |
+
+Reference forks for SLAM, RealSense, GTSAM, and related tooling are archived unless actively maintained.
 
 ### 4. Control / Dynamics / Robotics Math
 
@@ -99,70 +121,39 @@ This proves the control foundation.
 
 | Repo | Status | Action |
 |---|---|---|
-| `robotics-control-learning-labs` | Public core | Keep pinned until a stronger research-control artifact is polished. |
-| `wmm-trajectory-tracking` | High-value support | Keep public only if it is a simplified portfolio artifact; keep private if it contains unpublished methods/results. |
-| `RoboticScrewTheoryToolkit` | High-value support | Rename to `robotic-screw-theory-toolkit`; add examples/results. |
-| `Cruise_control` | Public support | Add README/results and relate to mobile robot control. |
-| `3dof-robot-arm-report` | Public support | Add report PDF, abstract, and figures if available. |
+| `robotics-control-learning-labs` | Public core, pinned | Add reproducible LQR/observer examples. |
+| `wmm-trajectory-tracking` | Public support | Add minimal reproducible trajectory-tracking example and plots. |
+| `RoboticScrewTheoryToolkit` | Public support | Add examples/results; consider renaming to `robotic-screw-theory-toolkit`. |
+| `Cruise_control` | Public support | Add model diagram and metrics. |
+| `3dof-robot-arm-report` | Public support | Add compiled PDF release and key figures. |
 
 ### 5. Computer Vision / AI Prototypes
 
-These support the perception background but should not dominate the robotics profile.
-
-| Category | Status | Action |
-|---|---|---|
-| OCR / document-understanding prototypes | Private or polished public | Keep private unless cleaned as applied-CV portfolio demos. |
-| YOLO / TFLite deployment experiments | Mixed | Keep private or public only if documented as deployment experiments. |
-| Crowd/street/search/product prototypes | Public/product | Move into an Applied AI / CV prototypes section if polished; otherwise archive. |
-| Domain-specific segmentation or medical-imaging utilities | Mixed | Keep public only if documented; otherwise archive/private. |
+Applied CV/AI prototypes are useful background, but they should not dominate the robotics profile. Keep them private or archived unless they become polished portfolio demos with clean READMEs, data policy, and reproducible examples.
 
 ### 6. Forks and Reference Repositories
 
-Most forks should not be part of the visible research story.
-
-Examples:
-
-```text
-opencv, dlib, darknet, yolov5, YOLOX, YOLOX-ROS, Open3D,
-apollo, carla, husky, gazebo_models, Deep_Object_Pose,
-KivyMD, kivy, transformers, openai-cookbook, llama
-```
+Public forks are archived by default. This keeps the profile focused on original research artifacts. Archived forks remain available as history/reference but do not compete with the active portfolio.
 
 Recommended policy:
 
 - Archive unmodified forks.
-- Keep only forks that contain useful changes or are active dependencies.
+- Keep only forks that contain useful original changes or are active dependencies.
 - Never pin forks unless they contain a significant original contribution.
-- Add a note in the profile that forks are kept as references/dependencies.
+- If a fork becomes important to the research pipeline, document why in the relevant public repo.
 
 ### 7. Old Learning / Coursework / General Programming
 
-These show learning history but dilute the current research identity.
-
-Examples:
-
-```text
-Basic-algorithms, Data_Structures, recover, neural_network,
-learning-curve, finding_donors, route-planner-algorithms,
-SQL_projects, Python, C-Plus-Plus, javascript-algorithms,
-19_udacity_dsa, DSND_Term1, aipnd-project
-```
-
-Recommended policy:
-
-- Archive most of these.
-- Keep public only if they are cleaned and useful as teaching artifacts.
-- Do not pin.
-- Consider consolidating into a single `learning-archive` repository if desired.
+Old learning/coursework repositories are archived. They remain preserved, but the active public profile should emphasize current research identity rather than early learning history.
 
 ## Pinning Strategy
 
-Recommended pinned repositories:
+Pinned repositories:
 
 1. `line-scan-mobile-manipulator-demo`
 2. `ros2-moveit-grasping-demo`
 3. `GTSAM_SLAM_VISION`
-4. `robotics-control-learning-labs` for now; later replace with a polished research-control artifact if appropriate
+4. `robotics-control-learning-labs`
 5. `ros2-mobile-robotics-labs`
 6. `research-reading-map`
 
@@ -191,7 +182,7 @@ research_project
 
 ## Topics to Use
 
-Apply these topics to public portfolio repositories:
+Use these topics across public portfolio repositories:
 
 ```text
 mobile-manipulation
@@ -225,12 +216,13 @@ When a paper or experiment is ready to expose:
 6. Add figures/GIFs that communicate the method without leaking protected details.
 7. Link the paper/report only after submission/preprint/publication is appropriate.
 
-## Immediate Cleanup Checklist
+## Cleanup Status
 
-- [ ] Add topics to the six pinned repositories.
-- [ ] Polish `wmm-trajectory-tracking` README and decide whether it should remain public.
-- [ ] Add README files to `orb_slam_demo` and `nerf-lab`.
-- [ ] Archive unmodified forks that are not actively used.
-- [ ] Archive or hide old coursework repositories.
-- [ ] Keep private all unpublished structure-aware scanning, hyperspectral, uncertainty-control, and paper-specific repositories.
-- [ ] Use public repos only as evidence, not as the full research lab notebook.
+- [x] Added topics to the six pinned repositories.
+- [x] Added aligned descriptions to core and support repositories.
+- [x] Archived unmodified/unneeded public forks.
+- [x] Archived old coursework and early learning repositories.
+- [x] Added READMEs to active public support repositories that were missing or empty.
+- [x] Kept private repositories private.
+- [x] Reduced active public repositories to a focused portfolio set.
+- [ ] Add real figures, GIFs, metrics, and reports to the active public repositories as experiments mature.
