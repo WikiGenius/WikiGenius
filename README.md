@@ -1,59 +1,102 @@
 # Muhammed Elyamani
 
-PhD researcher in Electrical Engineering at KFUPM, working at the intersection of robotics, control, motion planning, and state estimation.
+PhD researcher in Electrical Engineering at KFUPM working on robotics, control, motion planning, and state estimation for mobile manipulation.
 
-My current research direction focuses on **structure-aware planning and active sensing for mobile manipulators**, with an emphasis on line-scan / inspection-oriented robotic motion under geometric, visibility, and uncertainty constraints.
+My research focuses on **structure-aware planning and control for mobile manipulation**, where robot motion is designed not only to reach a target but also to actively acquire useful visual or spectral information under physical, geometric, sensing, and uncertainty constraints.
 
-## Research Interests
+The initial application is **line-scan-inspired RGB / hyperspectral scanning using a mobile manipulator**, with extensions toward state estimation, coverage planning, and uncertainty-aware control.
 
-- Mobile manipulation and motion planning
-- State estimation and factor graphs
-- Robotics control and real-time trajectory execution
-- Active sensing and visual inspection
-- ROS2, MoveIt, Gazebo/Isaac-style simulation
-- MATLAB/Python/C++ for robotics and control
+## Research Identity
 
-## Current Direction
+I am building a research program around robot motion that connects:
 
-I am building a research pipeline around:
+- active visual and spectral scanning,
+- mobile manipulation and whole-body motion planning,
+- coverage and viewpoint planning,
+- geometric and sensing constraints,
+- factor-graph state estimation and visual SLAM,
+- control under uncertainty.
 
-**Line-scan-aware active scanning for mobile manipulators**
+The public GitHub profile is organized as a portfolio of evidence. Public repositories demonstrate methods, engineering skill, reproducible workflows, and learning artifacts. Private repositories hold unpublished research code, datasets, experiments, and paper-specific implementations until they are ready for release.
 
-The goal is to develop planning and control methods that allow a mobile manipulator to scan objects or surfaces while respecting:
+## Current Research Direction
 
-- camera visibility constraints,
-- line-scan sensing geometry,
-- robot kinematic constraints,
-- coverage quality,
-- collision avoidance,
-- pose uncertainty.
+### Structure-Aware Active Scanning
 
-## Selected Projects
+The goal is to plan mobile manipulator motion that improves information acquisition, not just task completion. The robot should reason about what it can see, what it still needs to cover, how the sensor geometry affects measurement quality, and how robot kinematics or uncertainty constrain the scan.
 
-### ROS2 / MoveIt Mobile Manipulation
-Motion planning and task execution examples for arm control, Cartesian motion, grasping, and retreat behaviors.
+Key constraints include:
 
-### Factor Graph SLAM / Visual Estimation
-MATLAB-based experiments with GTSAM-style factor graph modeling, camera pose estimation, homography, and projection constraints.
+- line-scan / push-broom sensing geometry,
+- RGB and hyperspectral visual information,
+- camera visibility and viewing angle,
+- surface coverage and scan quality,
+- robot reachability and base-arm coordination,
+- collision avoidance and physical limits,
+- pose uncertainty and estimation quality.
 
-### Robotics Control Simulations
-Control-oriented simulations in MATLAB/Simulink, including cruise control, dynamic modeling, and closed-loop analysis.
+## Public Portfolio Pillars
+
+### Active Scanning and Coverage Planning
+
+- [`line-scan-mobile-manipulator-demo`](https://github.com/WikiGenius/line-scan-mobile-manipulator-demo) - public scaffold for line-scan-aware active scanning with a mobile manipulator.
+- [`research-reading-map`](https://github.com/WikiGenius/research-reading-map) - reading map for mobile manipulation, active perception, coverage planning, and state estimation.
+
+### Mobile Manipulation Execution
+
+- [`ros2-moveit-grasping-demo`](https://github.com/WikiGenius/ros2-moveit-grasping-demo) - ROS2 / MoveIt2 Cartesian approach, gripper control, grasping, and retreat demo.
+- [`ros2-mobile-robotics-labs`](https://github.com/WikiGenius/ros2-mobile-robotics-labs) - ROS2 Humble learning labs for mobile robotics workflows.
+
+### State Estimation and SLAM
+
+- [`GTSAM_SLAM_VISION`](https://github.com/WikiGenius/GTSAM_SLAM_VISION) - visual pose estimation and factor-graph SLAM experiments in MATLAB.
+- Supporting work includes ORB-SLAM, NeRF/SLAM, RealSense, and factor-graph study repositories.
+
+### Control and Robotics Foundations
+
+- [`robotics-control-learning-labs`](https://github.com/WikiGenius/robotics-control-learning-labs) - reproducible control labs for state-space modeling, LQR, observers, and MATLAB/Simulink.
+- Supporting work includes trajectory tracking, screw theory, cruise control, and robot-arm report repositories.
+
+## Public vs Private Policy
+
+**Public repositories** are for:
+
+- portfolio evidence,
+- simplified demos,
+- reproducible labs,
+- course-derived work with attribution,
+- polished technical reports,
+- reading maps and non-sensitive notes.
+
+**Private repositories** are for:
+
+- unpublished paper implementations,
+- novel algorithms before submission,
+- raw datasets and experiment logs,
+- hyperspectral/RGB data that may have sharing limits,
+- parameter sweeps and ablation studies,
+- drafts, figures, and reviewer-response experiments.
+
+When research is ready, a private repository can be distilled into a public release repo with a clean README, citation, license/notice, reproducible scripts, selected results, and a paper/report link.
 
 ## Technical Stack
 
-**Robotics:** ROS2, MoveIt, Gazebo, RViz  
+**Robotics:** ROS2, MoveIt2, Gazebo, RViz  
 **Control:** MATLAB, Simulink, state-space control, LQR, observers  
-**Estimation:** GTSAM, factor graphs, visual pose estimation  
+**Estimation:** GTSAM, factor graphs, visual pose estimation, SLAM  
+**Perception:** RGB, hyperspectral / line-scan-inspired sensing, computer vision  
 **Programming:** Python, C++, MATLAB  
-**Research Tools:** LaTeX, Git, Zotero, experiment logs
+**Research Tools:** LaTeX, Git, experiment logs, paper reading maps
 
 ## Current Goal
 
-My current focus is to convert learning and implementation work into reproducible research artifacts:
+Convert learning and implementation work into a coherent research portfolio:
 
-- clean GitHub repositories,
-- technical reports,
-- simulation demos,
-- experiment logs,
-- paper drafts,
-- publishable robotics research.
+- private publishable research repos,
+- public portfolio evidence repos,
+- reproducible demos and labs,
+- clean READMEs and result folders,
+- technical reports and paper links,
+- a clear path from robotics theory to runnable systems.
+
+See [`docs/repository-organization.md`](docs/repository-organization.md) for the repository organization map.
