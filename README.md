@@ -44,7 +44,7 @@ Key constraints include:
 
 ### Mobile Manipulation Execution
 
-- [`ros2-moveit-grasping-demo`](https://github.com/WikiGenius/ros2-moveit-grasping-demo) - ROS2 / MoveIt2 Cartesian approach, gripper control, grasping, and retreat demo.
+- [`ros2-moveit-grasping-demo`](https://github.com/WikiGenius/ros2-moveit-grasping-demo) - ROS2 / MoveIt2 perception-guided grasping with object localization, Cartesian approach, gripper control, and retreat planning.
 - [`ros2-mobile-robotics-labs`](https://github.com/WikiGenius/ros2-mobile-robotics-labs) - ROS2 Humble learning labs for mobile robotics workflows.
 
 ### State Estimation, SLAM, and 3D Perception
@@ -56,6 +56,7 @@ Key constraints include:
 ### Control and Robotics Foundations
 
 - [`robotics-control-learning-labs`](https://github.com/WikiGenius/robotics-control-learning-labs) - reproducible control labs for state-space modeling, LQR, observers, and MATLAB/Simulink.
+- [`ipendulum`](https://github.com/WikiGenius/ipendulum) - MATLAB/Simulink inverted-pendulum lab with PID, LQR, pole placement, observers, LQG, and demo animations.
 - [`wmm-trajectory-tracking`](https://github.com/WikiGenius/wmm-trajectory-tracking) - whole-body mobile-manipulator trajectory tracking support.
 - [`RoboticScrewTheoryToolkit`](https://github.com/WikiGenius/RoboticScrewTheoryToolkit) - screw theory, Jacobians, and robot kinematics foundations.
 - [`Cruise_control`](https://github.com/WikiGenius/Cruise_control) and [`3dof-robot-arm-report`](https://github.com/WikiGenius/3dof-robot-arm-report) - supporting control/report artifacts.
@@ -79,7 +80,7 @@ Key constraints include:
 - hyperspectral/RGB data that may have sharing limits,
 - parameter sweeps and ablation studies,
 - drafts, figures, and reviewer-response experiments,
-- private inverted-pendulum/control experiments until they can be distilled safely.
+- unpublished uncertainty-aware control experiments that are not ready for public release.
 
 When research is ready, a private repository can be distilled into a public release repo with a clean README, citation, license/notice, reproducible scripts, selected results, and a paper/report link.
 
