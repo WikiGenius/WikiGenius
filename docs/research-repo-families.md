@@ -29,7 +29,7 @@ Archived repositories are preserved as history, but they are not part of the act
 | Repo | Visibility | Role |
 |---|---|---|
 | [`GTSAM_SLAM_VISION`](https://github.com/WikiGenius/GTSAM_SLAM_VISION) | Public, pinned | Factor-graph visual SLAM and pose-estimation experiments. |
-| [`orb_slam_demo`](https://github.com/WikiGenius/orb_slam_demo) | Public support | ROS2 scaffold for ORB-SLAM-style visual state-estimation demos. |
+| [`husky-gazebo-image-capture`](https://github.com/WikiGenius/husky-gazebo-image-capture) | Public support | ROS2 Humble node for Gazebo Husky image/odometry snapshot capture. |
 | [`nerf-lab`](https://github.com/WikiGenius/nerf-lab) | Public support | NeRF / ray-based perception lab connected to active viewpoint selection and scene representation. |
 | Private estimation/perception repos | Private | Unpublished estimation experiments, private sensor data, and paper-specific results. |
 

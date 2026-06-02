@@ -29,7 +29,7 @@ Current active public repositories:
 | `RoboticScrewTheoryToolkit` | Robotics math, screw theory, kinematics, and Jacobian support artifact. |
 | `Cruise_control` | MATLAB/Simulink control and mobile-robot energy artifact. |
 | `nerf-lab` | NeRF / neural mapping support lab for 3D perception and SLAM intuition. |
-| `orb_slam_demo` | ROS2 scaffold for ORB-SLAM-style visual state-estimation demos. |
+| `husky-gazebo-image-capture` | ROS2 Humble node for driving a Gazebo Husky and capturing image/odometry snapshots. |
 | `hello_world_ros2_edx` | ROS2 Humble migration/learning evidence from ROS1 course concepts. |
 
 ## Public vs Private Rule
@@ -110,7 +110,7 @@ This supports the estimation part of the research program.
 | Repo | Status | Action |
 |---|---|---|
 | `GTSAM_SLAM_VISION` | Public core, pinned | Add figures, reproducible sample, and factor graph notes. |
-| `orb_slam_demo` | Public support | Add launch/demo workflow when ready. |
+| `husky-gazebo-image-capture` | Public support | Make topic names configurable and document dataset export workflow. |
 | `nerf-lab` | Public support | Add simplified rendering examples and 3D perception notes. |
 
 Reference forks for SLAM, RealSense, GTSAM, and related tooling are archived unless actively maintained.
