@@ -2,6 +2,12 @@
 
 PhD Researcher in Robotics and Control focusing on structure-aware planning, state estimation, and active sensing for mobile manipulation.
 
+<p align="center">
+  <img src="assets/research_banner.png" alt="Conceptual research banner showing mobile manipulation, line-scan active sensing, coverage planning, and state estimation" width="100%">
+</p>
+
+> Conceptual research banner illustrating my current PhD direction. It is a visual summary, not an experimental result.
+
 My current research direction studies active line-scan / one-row RGB scanning for mobile manipulators, where the robot must satisfy visibility, coverage, kinematic, collision, and uncertainty constraints during scanning and inspection tasks.
 
 ## Research Identity
@@ -12,6 +18,22 @@ My current research direction studies active line-scan / one-row RGB scanning fo
 - State estimation
 - Active sensing
 - ROS2 / MoveIt2 / GTSAM
+
+## Current Research Direction
+
+### Structure-Aware Active Scanning
+
+The goal is to plan mobile manipulator motion that improves information acquisition, not just task completion.
+
+Key constraints include:
+
+- line-scan / pushbroom sensing geometry,
+- RGB and hyperspectral visual information,
+- camera visibility and viewing angle,
+- surface coverage and scan quality,
+- robot reachability and base-arm coordination,
+- collision avoidance and physical limits,
+- pose uncertainty and estimation quality.
 
 ## Main Public Research Repositories
 
