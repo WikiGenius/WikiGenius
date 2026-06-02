@@ -11,7 +11,7 @@ The account has two layers:
 
 ## Current Public Shape
 
-The public active repository set is intentionally small. Archived repositories are preserved as history, references, or old learning work, but they are not part of the main public research story.
+The public active repository set is intentionally focused. Archived repositories are preserved as history, references, or old learning work, but they are not part of the main public research story.
 
 Current active public repositories:
 
@@ -19,9 +19,10 @@ Current active public repositories:
 |---|---|
 | `WikiGenius` | Profile README and organization map. |
 | `line-scan-mobile-manipulator-demo` | Main public scaffold for structure-aware line-scan / RGB-hyperspectral active scanning. |
-| `ros2-moveit-grasping-demo` | ROS2 / MoveIt2 mobile-manipulation execution evidence. |
+| `ros2-moveit-grasping-demo` | ROS2 / MoveIt2 perception-guided grasping and mobile-manipulation execution evidence. |
 | `GTSAM_SLAM_VISION` | Factor-graph visual SLAM and state-estimation evidence. |
-| `robotics-control-learning-labs` | Public control-foundation lab scaffold. |
+| `robotics-control-learning-labs` | Public control-foundation lab scaffold and pinned control hub. |
+| `ipendulum` | Public inverted-pendulum MATLAB/Simulink support lab for PID, LQR, observers, LQG, and animations. |
 | `ros2-mobile-robotics-labs` | Public ROS2 mobile-robotics learning scaffold. |
 | `research-reading-map` | Research reading map for active perception, coverage planning, estimation, and control. |
 | `wmm-trajectory-tracking` | Public trajectory-tracking / control support artifact. |
@@ -97,7 +98,7 @@ This proves the robot execution layer.
 
 | Repo | Status | Action |
 |---|---|---|
-| `ros2-moveit-grasping-demo` | Public core, pinned | Add launch workflow, screenshots, and execution metrics. |
+| `ros2-moveit-grasping-demo` | Public core, pinned | Add launch workflow, perception interface diagram, screenshots, and execution metrics. |
 | `ros2-mobile-robotics-labs` | Public core, pinned | Add ROS2 labs that support the main research direction. |
 | `hello_world_ros2_edx` | Public support | Keep as learning/migration evidence. Do not pin. |
 
@@ -121,11 +122,14 @@ This proves the control foundation.
 
 | Repo | Status | Action |
 |---|---|---|
-| `robotics-control-learning-labs` | Public core, pinned | Add reproducible LQR/observer examples. |
+| `robotics-control-learning-labs` | Public core, pinned | Add reproducible LQR/observer examples and link focused public control artifacts. |
+| `ipendulum` | Public support | Add controller comparison table, state-space derivation note, and reproducible metric outputs. |
 | `wmm-trajectory-tracking` | Public support | Add minimal reproducible trajectory-tracking example and plots. |
 | `RoboticScrewTheoryToolkit` | Public support | Add examples/results; consider renaming to `robotic-screw-theory-toolkit`. |
 | `Cruise_control` | Public support | Add model diagram and metrics. |
 | `3dof-robot-arm-report` | Public support | Add compiled PDF release and key figures. |
+
+Unpublished uncertainty-aware control studies, internal ablations, and paper-specific results remain private.
 
 ### 5. Computer Vision / AI Prototypes
 
@@ -156,6 +160,8 @@ Pinned repositories:
 4. `robotics-control-learning-labs`
 5. `ros2-mobile-robotics-labs`
 6. `research-reading-map`
+
+`ipendulum` is now public and should remain a linked support repo under the pinned control hub unless the future pinning strategy changes.
 
 ## Naming Strategy
 
@@ -223,6 +229,7 @@ When a paper or experiment is ready to expose:
 - [x] Archived unmodified/unneeded public forks.
 - [x] Archived old coursework and early learning repositories.
 - [x] Added READMEs to active public support repositories that were missing or empty.
-- [x] Kept private repositories private.
+- [x] Released `ipendulum` as a public control-support repository.
+- [x] Kept unpublished/private-data repositories private.
 - [x] Reduced active public repositories to a focused portfolio set.
 - [ ] Add real figures, GIFs, metrics, and reports to the active public repositories as experiments mature.
