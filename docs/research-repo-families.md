@@ -18,7 +18,7 @@ Public repositories are portfolio evidence. Private repositories are for unpubli
 
 | Repo | Visibility | Role |
 |---|---|---|
-| [`ros2-moveit-grasping-demo`](https://github.com/WikiGenius/ros2-moveit-grasping-demo) | Public, pinned | Manipulation execution evidence with MoveIt2 and ROS2. |
+| [`ros2-moveit-grasping-demo`](https://github.com/WikiGenius/ros2-moveit-grasping-demo) | Public, pinned | Perception-guided grasping and manipulation execution with ROS2/MoveIt2. |
 | [`ros2-mobile-robotics-labs`](https://github.com/WikiGenius/ros2-mobile-robotics-labs) | Public, pinned | ROS2 mobile robotics labs and reusable launch/simulation patterns. |
 | [`hello_world_ros2_edx`](https://github.com/WikiGenius/hello_world_ros2_edx) | Public support | Earlier ROS2 learning/migration evidence; do not pin unless expanded. |
 
@@ -36,11 +36,12 @@ Public repositories are portfolio evidence. Private repositories are for unpubli
 | Repo | Visibility | Role |
 |---|---|---|
 | [`robotics-control-learning-labs`](https://github.com/WikiGenius/robotics-control-learning-labs) | Public, pinned | Public control hub for state-space models, LQR, observers, and reproducible labs. |
+| [`ipendulum`](https://github.com/WikiGenius/ipendulum) | Public support | MATLAB/Simulink inverted-pendulum lab with PID, LQR, pole placement, observers, LQG, and demo animations. |
 | [`wmm-trajectory-tracking`](https://github.com/WikiGenius/wmm-trajectory-tracking) | Public support | Whole-body mobile-manipulator trajectory tracking. |
 | [`RoboticScrewTheoryToolkit`](https://github.com/WikiGenius/RoboticScrewTheoryToolkit) | Public support | Screw theory, Jacobians, inverse kinematics, and robotics math. |
 | [`Cruise_control`](https://github.com/WikiGenius/Cruise_control) | Public support | MATLAB/Simulink control and energy/control modeling artifact. |
 | [`3dof-robot-arm-report`](https://github.com/WikiGenius/3dof-robot-arm-report) | Public support | Robot-arm modeling, kinematics, and control report. |
-| Private inverted-pendulum/control repos | Private | Unpublished control studies, inverted-pendulum experiments, and uncertainty-aware control work. |
+| Private uncertainty/control repos | Private | Unpublished control studies, paper-specific experiments, ablations, and uncertainty-aware control work. |
 
 ## Family 5: Applied CV/AI Prototypes
 
@@ -66,6 +67,8 @@ Pinned repos should tell a coherent research story:
 
 Do not pin private repos, forks, old coursework, or support repos unless they become polished enough to replace a current pin.
 
+`ipendulum` is now public and belongs under the pinned control hub. It does not need to be pinned separately unless the profile later shifts toward control education as the main signal.
+
 ## What To Improve Next
 
 For each pinned repo, aim to add:
@@ -75,3 +78,5 @@ For each pinned repo, aim to add:
 - one short `docs/` note explaining the method,
 - one `results/` artifact or placeholder linked from the README,
 - clear limitations saying what is simplified or withheld.
+
+For `ipendulum`, next useful improvements are a controller comparison table, a short state-space derivation note, and a `results/` folder with reproducible metric outputs.
