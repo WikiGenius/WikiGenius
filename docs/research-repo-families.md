@@ -6,6 +6,8 @@ This document shows how the public and private repositories should be organized 
 
 Public repositories are portfolio evidence. Private repositories are for unpublished research, datasets, paper-specific code, ablations, and experiments that should not be exposed before publication.
 
+Archived repositories are preserved as history, but they are not part of the active public portfolio.
+
 ## Family 1: Structure-Aware Active Scanning
 
 | Repo | Visibility | Role |
@@ -40,8 +42,13 @@ Public repositories are portfolio evidence. Private repositories are for unpubli
 | [`wmm-trajectory-tracking`](https://github.com/WikiGenius/wmm-trajectory-tracking) | Public support | Whole-body mobile-manipulator trajectory tracking. |
 | [`RoboticScrewTheoryToolkit`](https://github.com/WikiGenius/RoboticScrewTheoryToolkit) | Public support | Screw theory, Jacobians, inverse kinematics, and robotics math. |
 | [`Cruise_control`](https://github.com/WikiGenius/Cruise_control) | Public support | MATLAB/Simulink control and energy/control modeling artifact. |
-| [`3dof-robot-arm-report`](https://github.com/WikiGenius/3dof-robot-arm-report) | Public support | Robot-arm modeling, kinematics, and control report. |
 | Private uncertainty/control repos | Private | Unpublished control studies, paper-specific experiments, ablations, and uncertainty-aware control work. |
+
+Archived control history:
+
+| Repo | Visibility | Role |
+|---|---|---|
+| [`3dof-robot-arm-report`](https://github.com/WikiGenius/3dof-robot-arm-report) | Archived | Older robot-arm modeling, kinematics, and control report preserved as history. |
 
 ## Family 5: Applied CV/AI Prototypes
 
@@ -65,7 +72,7 @@ Pinned repos should tell a coherent research story:
 5. `ros2-mobile-robotics-labs` - ROS2 systems foundation.
 6. `research-reading-map` - theory and architecture map.
 
-Do not pin private repos, forks, old coursework, or support repos unless they become polished enough to replace a current pin.
+Do not pin private repos, forks, old coursework, archived repos, or support repos unless they become polished enough to replace a current pin.
 
 `ipendulum` is now public and belongs under the pinned control hub. It does not need to be pinned separately unless the profile later shifts toward control education as the main signal.
 
