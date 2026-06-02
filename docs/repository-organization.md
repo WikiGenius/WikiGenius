@@ -28,10 +28,15 @@ Current active public repositories:
 | `wmm-trajectory-tracking` | Public trajectory-tracking / control support artifact. |
 | `RoboticScrewTheoryToolkit` | Robotics math, screw theory, kinematics, and Jacobian support artifact. |
 | `Cruise_control` | MATLAB/Simulink control and mobile-robot energy artifact. |
-| `3dof-robot-arm-report` | LaTeX technical report for robot-arm modeling and control. |
 | `nerf-lab` | NeRF / neural mapping support lab for 3D perception and SLAM intuition. |
 | `orb_slam_demo` | ROS2 scaffold for ORB-SLAM-style visual state-estimation demos. |
 | `hello_world_ros2_edx` | ROS2 Humble migration/learning evidence from ROS1 course concepts. |
+
+Archived control/history repositories:
+
+| Repo | Reason archived |
+|---|---|
+| `3dof-robot-arm-report` | Older robot-arm modeling/control report preserved as history, not active portfolio evidence. |
 
 ## Public vs Private Rule
 
@@ -127,7 +132,7 @@ This proves the control foundation.
 | `wmm-trajectory-tracking` | Public support | Add minimal reproducible trajectory-tracking example and plots. |
 | `RoboticScrewTheoryToolkit` | Public support | Add examples/results; consider renaming to `robotic-screw-theory-toolkit`. |
 | `Cruise_control` | Public support | Add model diagram and metrics. |
-| `3dof-robot-arm-report` | Public support | Add compiled PDF release and key figures. |
+| `3dof-robot-arm-report` | Archived | Preserve as historical robot-arm report; do not treat as active portfolio. |
 
 Unpublished uncertainty-aware control studies, internal ablations, and paper-specific results remain private.
 
@@ -161,7 +166,7 @@ Pinned repositories:
 5. `ros2-mobile-robotics-labs`
 6. `research-reading-map`
 
-`ipendulum` is now public and should remain a linked support repo under the pinned control hub unless the future pinning strategy changes.
+`ipendulum` is now public and should remain a linked support repo under the pinned control hub unless the future pinning strategy changes. Archived repositories should not be pinned.
 
 ## Naming Strategy
 
@@ -230,6 +235,7 @@ When a paper or experiment is ready to expose:
 - [x] Archived old coursework and early learning repositories.
 - [x] Added READMEs to active public support repositories that were missing or empty.
 - [x] Released `ipendulum` as a public control-support repository.
+- [x] Archived `3dof-robot-arm-report` as historical report material.
 - [x] Kept unpublished/private-data repositories private.
 - [x] Reduced active public repositories to a focused portfolio set.
 - [ ] Add real figures, GIFs, metrics, and reports to the active public repositories as experiments mature.
