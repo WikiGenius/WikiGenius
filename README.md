@@ -45,6 +45,14 @@ Key elements include:
 | `ros2-mobile-robotics-labs` | ROS2 mobile robotics learning/demo repository |
 | `research-reading-map` | Public reading map and paper-note templates |
 
+## Supporting Research Layers
+
+These repositories support future extensions of the core robotics/control direction. They are not presented as completed PhD contributions yet, but they help organize perception, representation, and world-model ideas that may later connect to active scanning and motion planning.
+
+| Repository | Role |
+|---|---|
+| [nerf-lab](https://github.com/WikiGenius/nerf-lab) | Neural scene representation and view-synthesis lab supporting future world-model, active perception, and planning extensions |
+
 ## Public / Private Research Boundary
 
 Public repositories are used for sanitized portfolio evidence, simplified demos, reproducible learning labs, public reading maps, and non-confidential research scaffolds.
