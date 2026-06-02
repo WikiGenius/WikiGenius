@@ -21,7 +21,7 @@ Archived repositories are preserved as history, but they are not part of the act
 | Repo | Visibility | Role |
 |---|---|---|
 | [`ros2-moveit-grasping-demo`](https://github.com/WikiGenius/ros2-moveit-grasping-demo) | Public, pinned | Perception-guided grasping and manipulation execution with ROS2/MoveIt2. |
-| [`ros2-mobile-robotics-labs`](https://github.com/WikiGenius/ros2-mobile-robotics-labs) | Public, pinned | ROS2 mobile robotics labs and reusable launch/simulation patterns. |
+| [`ros2-mobile-robotics-labs`](https://github.com/WikiGenius/ros2-mobile-robotics-labs) | Public, pinned | ROS2 mobile robotics scaffold for future launch/simulation patterns. |
 | [`hello_world_ros2_edx`](https://github.com/WikiGenius/hello_world_ros2_edx) | Public support | Earlier ROS2 learning/migration evidence; do not pin unless expanded. |
 
 ## Family 3: State Estimation, SLAM, and 3D Perception
@@ -37,7 +37,7 @@ Archived repositories are preserved as history, but they are not part of the act
 
 | Repo | Visibility | Role |
 |---|---|---|
-| [`robotics-control-learning-labs`](https://github.com/WikiGenius/robotics-control-learning-labs) | Public, pinned | Public control hub for state-space models, LQR, observers, and reproducible labs. |
+| [`robotics-control-learning-labs`](https://github.com/WikiGenius/robotics-control-learning-labs) | Public, pinned | Public control hub for state-space models, LQR, observers, and related support repos. |
 | [`ipendulum`](https://github.com/WikiGenius/ipendulum) | Public support | MATLAB/Simulink inverted-pendulum lab with PID, LQR, pole placement, observers, LQG, and demo animations. |
 | [`wmm-trajectory-tracking`](https://github.com/WikiGenius/wmm-trajectory-tracking) | Public support | Whole-body mobile-manipulator trajectory tracking. |
 | [`RoboticScrewTheoryToolkit`](https://github.com/WikiGenius/RoboticScrewTheoryToolkit) | Public support | Screw theory, Jacobians, inverse kinematics, and robotics math. |
@@ -78,12 +78,12 @@ Do not pin private repos, forks, old coursework, archived repos, or support repo
 
 ## What To Improve Next
 
-For each pinned repo, aim to add:
+For each pinned repo, aim to add real public-safe evidence as the work matures:
 
-- one runnable minimal example,
-- one figure/GIF/screenshot,
-- one short `docs/` note explaining the method,
-- one `results/` artifact or placeholder linked from the README,
+- one runnable minimal example when it exists,
+- one figure/GIF/screenshot from real or approved public-safe work,
+- one short `docs/` note explaining the method or scope,
+- one `results/` artifact only when the result is real and clearly labeled,
 - clear limitations saying what is simplified or withheld.
 
 For `ipendulum`, next useful improvements are a controller comparison table, a short state-space derivation note, and a `results/` folder with reproducible metric outputs.

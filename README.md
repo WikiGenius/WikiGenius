@@ -45,7 +45,7 @@ Key constraints include:
 ### Mobile Manipulation Execution
 
 - [`ros2-moveit-grasping-demo`](https://github.com/WikiGenius/ros2-moveit-grasping-demo) - ROS2 / MoveIt2 perception-guided grasping with object localization, Cartesian approach, gripper control, and retreat planning.
-- [`ros2-mobile-robotics-labs`](https://github.com/WikiGenius/ros2-mobile-robotics-labs) - ROS2 Humble learning labs for mobile robotics workflows.
+- [`ros2-mobile-robotics-labs`](https://github.com/WikiGenius/ros2-mobile-robotics-labs) - ROS2 Humble organization scaffold for future mobile robotics labs.
 
 ### State Estimation, SLAM, and 3D Perception
 
@@ -55,7 +55,7 @@ Key constraints include:
 
 ### Control and Robotics Foundations
 
-- [`robotics-control-learning-labs`](https://github.com/WikiGenius/robotics-control-learning-labs) - reproducible control labs for state-space modeling, LQR, observers, and MATLAB/Simulink.
+- [`robotics-control-learning-labs`](https://github.com/WikiGenius/robotics-control-learning-labs) - control-foundation hub for state-space modeling, LQR, observers, and MATLAB/Simulink support repos.
 - [`ipendulum`](https://github.com/WikiGenius/ipendulum) - MATLAB/Simulink inverted-pendulum lab with PID, LQR, pole placement, observers, LQG, and demo animations.
 - [`wmm-trajectory-tracking`](https://github.com/WikiGenius/wmm-trajectory-tracking) - whole-body mobile-manipulator trajectory tracking support.
 - [`RoboticScrewTheoryToolkit`](https://github.com/WikiGenius/RoboticScrewTheoryToolkit) - screw theory, Jacobians, and robot kinematics foundations.
@@ -68,8 +68,8 @@ Archived technical reports and older learning artifacts are kept as history but 
 **Public repositories** are for:
 
 - portfolio evidence,
-- simplified demos,
-- reproducible labs,
+- simplified demos after review,
+- reproducible labs when the underlying work is real and public-safe,
 - course-derived work with attribution,
 - polished technical reports,
 - reading maps and non-sensitive notes.
@@ -84,7 +84,7 @@ Archived technical reports and older learning artifacts are kept as history but 
 - drafts, figures, and reviewer-response experiments,
 - unpublished uncertainty-aware control experiments that are not ready for public release.
 
-When research is ready, a private repository can be distilled into a public release repo with a clean README, citation, license/notice, reproducible scripts, selected results, and a paper/report link.
+When research is ready, a private repository can be distilled into a public release repo with a clean README, citation, license/notice, real reproducible scripts, selected results, and a paper/report link.
 
 ## Technical Stack
 

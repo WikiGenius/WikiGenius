@@ -117,7 +117,7 @@ This supports the estimation part of the research program.
 |---|---|---|
 | `GTSAM_SLAM_VISION` | Public core, pinned | Add figures, reproducible sample, and factor graph notes. |
 | `orb_slam_demo` | Public support | Add launch/demo workflow when ready. |
-| `nerf-lab` | Public support | Add toy rendering examples and 3D perception notes. |
+| `nerf-lab` | Public support | Add simplified rendering examples and 3D perception notes. |
 
 Reference forks for SLAM, RealSense, GTSAM, and related tooling are archived unless actively maintained.
 
@@ -223,7 +223,7 @@ When a paper or experiment is ready to expose:
 2. Create a simplified public demo repository.
 3. Remove sensitive datasets, exact unpublished ablations, and private notes.
 4. Add `README.md`, `LICENSE` or notice, `docs/`, `src/`, `results/`, `media/`.
-5. Include a small reproducible example or synthetic data.
+5. Include a small reproducible example or synthetic data only when it is real and safe to publish.
 6. Add figures/GIFs that communicate the method without leaking protected details.
 7. Link the paper/report only after submission/preprint/publication is appropriate.
 
