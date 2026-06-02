@@ -44,12 +44,6 @@ Archived repositories are preserved as history, but they are not part of the act
 | [`Cruise_control`](https://github.com/WikiGenius/Cruise_control) | Public support | MATLAB/Simulink control and energy/control modeling artifact. |
 | Private uncertainty/control repos | Private | Unpublished control studies, paper-specific experiments, ablations, and uncertainty-aware control work. |
 
-Archived control history:
-
-| Repo | Visibility | Role |
-|---|---|---|
-| [`3dof-robot-arm-report`](https://github.com/WikiGenius/3dof-robot-arm-report) | Archived | Older robot-arm modeling, kinematics, and control report preserved as history. |
-
 ## Family 5: Applied CV/AI Prototypes
 
 Keep applied CV/AI prototypes private or archived unless they become polished public demos with a clean README, data policy, runnable example, and relevance to robotics/perception.

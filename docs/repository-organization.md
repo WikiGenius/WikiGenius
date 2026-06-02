@@ -32,12 +32,6 @@ Current active public repositories:
 | `orb_slam_demo` | ROS2 scaffold for ORB-SLAM-style visual state-estimation demos. |
 | `hello_world_ros2_edx` | ROS2 Humble migration/learning evidence from ROS1 course concepts. |
 
-Archived control/history repositories:
-
-| Repo | Reason archived |
-|---|---|
-| `3dof-robot-arm-report` | Older robot-arm modeling/control report preserved as history, not active portfolio evidence. |
-
 ## Public vs Private Rule
 
 ### Keep Private
@@ -132,7 +126,6 @@ This proves the control foundation.
 | `wmm-trajectory-tracking` | Public support | Add minimal reproducible trajectory-tracking example and plots. |
 | `RoboticScrewTheoryToolkit` | Public support | Add examples/results; consider renaming to `robotic-screw-theory-toolkit`. |
 | `Cruise_control` | Public support | Add model diagram and metrics. |
-| `3dof-robot-arm-report` | Archived | Preserve as historical robot-arm report; do not treat as active portfolio. |
 
 Unpublished uncertainty-aware control studies, internal ablations, and paper-specific results remain private.
 
@@ -235,7 +228,6 @@ When a paper or experiment is ready to expose:
 - [x] Archived old coursework and early learning repositories.
 - [x] Added READMEs to active public support repositories that were missing or empty.
 - [x] Released `ipendulum` as a public control-support repository.
-- [x] Archived `3dof-robot-arm-report` as historical report material.
 - [x] Kept unpublished/private-data repositories private.
 - [x] Reduced active public repositories to a focused portfolio set.
 - [ ] Add real figures, GIFs, metrics, and reports to the active public repositories as experiments mature.
