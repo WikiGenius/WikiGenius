@@ -59,7 +59,9 @@ Key constraints include:
 - [`ipendulum`](https://github.com/WikiGenius/ipendulum) - MATLAB/Simulink inverted-pendulum lab with PID, LQR, pole placement, observers, LQG, and demo animations.
 - [`wmm-trajectory-tracking`](https://github.com/WikiGenius/wmm-trajectory-tracking) - whole-body mobile-manipulator trajectory tracking support.
 - [`RoboticScrewTheoryToolkit`](https://github.com/WikiGenius/RoboticScrewTheoryToolkit) - screw theory, Jacobians, and robot kinematics foundations.
-- [`Cruise_control`](https://github.com/WikiGenius/Cruise_control) and [`3dof-robot-arm-report`](https://github.com/WikiGenius/3dof-robot-arm-report) - supporting control/report artifacts.
+- [`Cruise_control`](https://github.com/WikiGenius/Cruise_control) - supporting MATLAB/Simulink control artifact.
+
+Archived technical reports and older learning artifacts are kept as history but are not part of the active portfolio.
 
 ## Public vs Private Policy
 
