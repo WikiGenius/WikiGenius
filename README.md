@@ -1,80 +1,57 @@
 # Muhammed Elyamani
 
-PhD Researcher in Robotics and Control focusing on structure-aware planning, state estimation, and active sensing for mobile manipulation.
+**PhD researcher in robotics and control · Perception-aware motion planning**
 
-<p align="center">
-  <img src="assets/research_banner.jpg" alt="Conceptual research banner showing mobile manipulation, line-scan active sensing, coverage planning, and state estimation" width="100%">
-</p>
+How should a robot move to obtain the information it needs to accomplish a task?
 
-> Conceptual research banner illustrating my current PhD direction. It is a visual summary, not an experimental result.
+My research explores how motion planning can account for sensing quality, uncertainty, and task objectives alongside kinematic, dynamic, and collision constraints. The goal is to develop methods that can be adapted to different robots and sensing modalities through their respective models.
 
-## Research Identity
+RGB-D and hyperspectral sensing are initial application interests. They do not define the scope of the research, and mobile manipulators are one possible platform rather than a requirement.
 
-I am building a research portfolio around robotics and control, with emphasis on:
+## The research story
 
-- mobile manipulation,
-- motion planning,
-- active sensing,
-- state estimation,
-- visual and spectral scanning,
-- ROS2 / MoveIt2 / GTSAM-based robotics workflows.
+**Observe → estimate → evaluate sensing opportunities → plan → execute → observe again**
 
-## Current Research Direction
+The central idea is to connect what a robot needs to know with where and how it moves. Depending on the task, a planner might prioritize visibility, coverage, informative measurements, or reduced uncertainty while balancing motion cost and feasibility.
 
-My current PhD direction studies structure-aware active scanning for mobile manipulators.
+My public projects build parts of this story. They are separate implementations and learning studies—not yet one integrated, validated perception-aware planning system.
 
-The goal is to plan robot motion that improves information acquisition, not only task completion. The robot must satisfy geometric, sensing, kinematic, collision, and uncertainty constraints during scanning and inspection tasks.
+## Start with these projects
 
-Key elements include:
+| Project | What is implemented | Connection to the research |
+| --- | --- | --- |
+| [Mobile-manipulator planning and tracking](https://github.com/WikiGenius/wmm-planning-and-tracking) | MATLAB planning, base–arm coordination, torque-level tracking, and simulation/report artifacts | A foundation for generating and executing sensing trajectories |
+| [NeRF Lab](https://github.com/WikiGenius/nerf-lab) | Camera geometry, neural density learning, and opacity/depth rendering experiments | Scene representation for studying viewpoint-dependent observations |
+| [ROS2 / MoveIt grasping](https://github.com/WikiGenius/ros2-moveit-grasping-demo) | C++ arm/gripper execution, Cartesian approach and retreat, and launch files | Connecting a target pose to robot motion; the full perception stack is external |
+| [Screw Theory Toolkit](https://github.com/WikiGenius/RoboticScrewTheoryToolkit) | Python kinematics, Jacobians, and inverse-kinematics utilities | Reachability and geometric reasoning for candidate sensing poses |
+| [GTSAM SLAM Vision](https://github.com/WikiGenius/GTSAM_SLAM_VISION) | MATLAB visual pose-estimation and factor-graph experiments | Estimation foundations for planning with uncertain poses |
+| [iPendulum](https://github.com/WikiGenius/ipendulum) | PID, state feedback, observers, and MATLAB/Simulink demonstrations | Control and estimation foundations for reliable execution |
 
-- line-scan / one-row RGB sensing as a proxy for hyperspectral pushbroom acquisition,
-- surface coverage and scan-quality metrics,
-- camera visibility and viewing-angle constraints,
-- mobile base and manipulator coordination,
-- state estimation and uncertainty-aware planning,
-- reproducible simulation, experiment logging, and paper-oriented research artifacts.
+The linked repositories describe their requirements and limitations. Included figures are project artifacts; their presence alone does not establish reproducibility or hardware validation.
 
-## Main Public Research Repositories
+## Explore by research role
 
-| Repository | Role |
-|---|---|
-| `line-scan-mobile-manipulator-demo` | Public scaffold for line-scan-aware active scanning and coverage planning |
-| `ros2-moveit-grasping-demo` | ROS2 / MoveIt2 manipulation demo |
-| `GTSAM_SLAM_VISION` | Visual pose estimation and factor-graph/state-estimation experiments |
-| `robotics-control-learning-labs` | Control foundations and reproducible learning labs |
-| `ros2-mobile-robotics-labs` | ROS2 mobile robotics learning/demo repository |
-| `research-reading-map` | Public reading map and paper-note templates |
+| Role | Repositories | Current scope |
+| --- | --- | --- |
+| Motion planning and control | [WMM planning and tracking](https://github.com/WikiGenius/wmm-planning-and-tracking), [UGV–Panda geometric control](https://github.com/WikiGenius/ugv-panda-geometric-control) | Simulation implementations. UGV–Panda has a documented Jacobian defect pending correction |
+| Estimation and scene representation | [GTSAM SLAM Vision](https://github.com/WikiGenius/GTSAM_SLAM_VISION), [NeRF Lab](https://github.com/WikiGenius/nerf-lab) | Research/learning prototypes, not complete SLAM systems |
+| Robot geometry and execution | [Screw Theory Toolkit](https://github.com/WikiGenius/RoboticScrewTheoryToolkit), [MoveIt grasping](https://github.com/WikiGenius/ros2-moveit-grasping-demo) | Kinematic utilities and a robot-specific manipulation demo |
+| Sensing and data collection | [Husky image capture](https://github.com/WikiGenius/husky-gazebo-image-capture), [traffic-sign detection](https://github.com/WikiGenius/ros-husky-traffic-sign-detection) | ROS2 image/odometry capture and a legacy ROS 1 perception demo |
+| Control foundations | [iPendulum](https://github.com/WikiGenius/ipendulum), [Cruise Control](https://github.com/WikiGenius/Cruise_control) | Focused educational control and simulation studies |
+| Reading and navigation | [Research reading map](https://github.com/WikiGenius/research-reading-map), [control hub](https://github.com/WikiGenius/robotics-control-learning-labs), [ROS hub](https://github.com/WikiGenius/ros2-mobile-robotics-labs) | Reading structure and project indexes; not standalone experimental results |
 
-## Supporting Research Layers
+## From components to a research contribution
 
-These repositories support future extensions of the core robotics/control direction. They are not presented as completed PhD contributions yet, but they help organize perception, representation, and world-model ideas that may later connect to active scanning and motion planning.
+The next step is to couple sensing objectives with motion decisions and evaluate the resulting trade-offs against explicit baselines. Sensor observation models and robot constraints will be chosen for each application; a common planning idea does not imply identical models for every platform.
 
-| Repository | Role |
-|---|---|
-| [nerf-lab](https://github.com/WikiGenius/nerf-lab) | Neural scene representation and view-synthesis lab supporting future world-model, active perception, and planning extensions |
+[Line-scan mobile-manipulator demo](https://github.com/WikiGenius/line-scan-mobile-manipulator-demo) is an early application scaffold for scanning and coverage experiments. It currently has no complete runnable demo. It is one possible test case for the broader research direction.
 
-## Public / Private Research Boundary
+## Earlier work and collaboration
 
-Public repositories are used for sanitized portfolio evidence, simplified demos, reproducible learning labs, public reading maps, and non-confidential research scaffolds.
+Archived computer-vision applications such as [StreetStat](https://github.com/WikiGenius/StreetStat) and [CrowdScope](https://github.com/WikiGenius/CrowdScope), course exercises, and upstream forks document earlier work. They support the learning history rather than serving as completed PhD contributions.
 
-Unpublished research algorithms, paper drafts, detailed gap analysis, advisor feedback, real lab data, ablation studies, and paper-specific implementations remain private until they are ready for publication or approved release.
+I welcome collaboration on planning, estimation, sensing models, and reproducible robotics experiments. Open an issue in the relevant project to discuss technical work. Each repository retains its own scope, validation status, and license terms.
 
-## Technical Stack
+**Tools:** Python, C++, MATLAB/Simulink, ROS2, MoveIt2, Gazebo, GTSAM, and PyTorch.
 
-- **Robotics:** ROS2, MoveIt2, Gazebo, RViz
-- **Control:** MATLAB, Simulink, state-space control, LQR, observers
-- **State estimation:** GTSAM, factor graphs, visual pose estimation, SLAM
-- **Perception:** RGB, line-scan-inspired sensing, hyperspectral imaging concepts, computer vision
-- **Programming:** Python, C++, MATLAB
-- **Research tools:** LaTeX, Git, experiment logs, paper reading maps
-
-## Current Goal
-
-Convert learning and implementation work into visible research artifacts:
-
-- clean repositories,
-- runnable demos,
-- experiment logs,
-- plots and figures,
-- technical reports,
-- paper submissions.
+Unpublished manuscripts, confidential data, and collaborator feedback are kept private until approved for release.
