@@ -65,8 +65,6 @@ Supporting work: [Screw Theory Toolkit](https://github.com/WikiGenius/RoboticScr
 
 **How does a motion decision become robot action?**
 
-[UGV–Panda Geometric Control](https://github.com/WikiGenius/ugv-panda-geometric-control) — geometric-control simulations for a mobile manipulator.
-
 [ROS2 MoveIt Grasping Demo](https://github.com/WikiGenius/ros2-moveit-grasping-demo) — Cartesian approach, gripper control, and retreat from a target pose.
 
 **Research connection:** feedback and execution connect planned motion to the observations and actions a robot can achieve.
@@ -75,7 +73,7 @@ Supporting work: [Screw Theory Toolkit](https://github.com/WikiGenius/RoboticScr
 </tr>
 </table>
 
-For the closest connection to my planning research, start with **[WMM Planning and Tracking](https://github.com/WikiGenius/wmm-planning-and-tracking)**, followed by **[NeRF Lab](https://github.com/WikiGenius/nerf-lab)** and **[UGV–Panda Geometric Control](https://github.com/WikiGenius/ugv-panda-geometric-control)**. Each repository documents its own setup and current limitations.
+For the closest connection to my planning research, start with **[WMM Planning and Tracking](https://github.com/WikiGenius/wmm-planning-and-tracking)**, followed by **[NeRF Lab](https://github.com/WikiGenius/nerf-lab)**. Each repository documents its own setup and current limitations.
 
 ## Foundations and ongoing work
 
