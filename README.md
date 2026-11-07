@@ -77,11 +77,11 @@ For the closest connection to my planning research, start with **[WMM Planning a
 
 ## Foundations and ongoing work
 
-- **Classical control:** [iPendulum](https://github.com/WikiGenius/ipendulum) and [Cruise Control](https://github.com/WikiGenius/Cruise_control) cover feedback, modeling, and estimation foundations.
-- **Learning and navigation:** [Control project index](https://github.com/WikiGenius/robotics-control-learning-labs), [ROS2 lab scaffold](https://github.com/WikiGenius/ros2-mobile-robotics-labs), and [research reading map](https://github.com/WikiGenius/research-reading-map).
+- **Control foundations:** [iPendulum](https://github.com/WikiGenius/ipendulum) covers classical and state-space control studies; [Cruise Control](https://github.com/WikiGenius/Cruise_control) explores motor control and energy analysis in Simulink.
+- **Indexes and templates:** [Control project index](https://github.com/WikiGenius/robotics-control-learning-labs), [ROS2 lab scaffold](https://github.com/WikiGenius/ros2-mobile-robotics-labs), and [research reading map](https://github.com/WikiGenius/research-reading-map) organize learning and planned work; they are not standalone runnable demonstrations.
 - **Planned application:** [Line-scan mobile-manipulator scaffold](https://github.com/WikiGenius/line-scan-mobile-manipulator-demo) explores a possible scanning and coverage test case; a complete runnable demo is still planned.
 
-Earlier computer-vision applications, including [StreetStat](https://github.com/WikiGenius/StreetStat) and [CrowdScope](https://github.com/WikiGenius/CrowdScope), document the development of my perception background.
+Archived computer-vision prototypes, including [StreetStat](https://github.com/WikiGenius/StreetStat) and [CrowdScope](https://github.com/WikiGenius/CrowdScope), document the development of my perception background. Their historical setup instructions may require updates.
 
 ## Collaboration
 
