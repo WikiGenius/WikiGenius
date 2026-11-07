@@ -39,7 +39,7 @@ The projects below develop components of this research direction. Integrating th
 
 [NeRF Lab](https://github.com/WikiGenius/nerf-lab) — camera geometry, neural density learning, and opacity/depth rendering with known poses.
 
-Supporting work: [GTSAM SLAM Vision](https://github.com/WikiGenius/GTSAM_SLAM_VISION), with visual pose-estimation and factor-graph experiments.
+[GTSAM SLAM Vision](https://github.com/WikiGenius/GTSAM_SLAM_VISION) — visual pose-estimation and factor-graph experiments, with an illustrated [setup and trajectory gallery](https://github.com/WikiGenius/GTSAM_SLAM_VISION/blob/master/media/README.md).
 
 **Research connection:** scene and pose models can support visibility reasoning and planning under uncertainty.
 
@@ -87,4 +87,4 @@ Earlier computer-vision applications, including [StreetStat](https://github.com/
 
 I welcome collaboration on perception-aware planning, sensing models, estimation, and reproducible robotics experiments. Open an issue in the relevant repository to discuss technical work.
 
-**Tools:** Python · C++ · MATLAB/Simulink · ROS2 · MoveIt2 · Gazebo · GTSAM · PyTorch
+**Tools:** Python · C++ · MATLAB/Simulink · ROS1 · ROS2 · MoveIt2 · Gazebo · GTSAM · PyTorch
