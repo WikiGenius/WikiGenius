@@ -1,90 +1,70 @@
 # Muhammed Elyamani
 
-**PhD researcher in robotics and control · Perception-aware motion planning**
+**PhD Researcher in Electrical Engineering (Control) · KFUPM**  
+**Perception-Aware Motion Planning · Active Sensing · State Estimation · Robotic Control**
 
 <p align="center">
-  <img src="assets/research_banner.jpg" alt="Conceptual illustration of robot sensing, mobile manipulation, planning, and estimation" width="100%">
+  <img src="assets/research_banner.jpg" alt="Conceptual illustration of a mobile robot, sensing trajectory, line-scanning sensor, and 3D surface representation" width="100%">
 </p>
 
-*An example application of perception-aware motion planning. This conceptual illustration shows a sensing and mobile-manipulation scenario; sensor and robot choices depend on the task.*
+<p align="center"><sub>Conceptual research illustration—not a photograph of my experimental setup or a validated integrated system.</sub></p>
 
-I study how robots should move to acquire useful information and accomplish tasks. My interests connect sensing quality and uncertainty with motion feasibility, coverage, and task objectives. RGB-D and hyperspectral sensing are initial application interests, within a broader direction open to different sensors and robot platforms.
+## Research focus
 
-## Research layers
+I study **how robots should move to acquire useful information** and how sensing requirements should influence planning and control. My interests connect geometry, motion feasibility, state estimation, sensing quality, and task-driven decision-making.
 
-**Sense → represent and estimate → plan → execute → sense again**
+**Current research question:** When does changing a sensing trajectory improve independently measured observation quality compared with a well-tuned geometric scanning baseline?
 
-The projects below develop components of this research direction. Integrating them into a perception-aware planning system is ongoing work.
+My current experimental plan begins with RGB area/virtual-line measurements using an OAK-D camera, with a planned transfer to RGB-D and pushbroom hyperspectral sensing for 3-D material mapping. These are testbeds for a broader research direction, not completed integrated demonstrations or permanent restrictions on the sensors and robots I study.
+
+## Selected projects
 
 <table>
-<tr>
-<td width="50%" valign="top">
-
-### 1 · Sensing and perception
-
-**What can the robot observe?**
-
-[Husky Gazebo Image Capture](https://github.com/WikiGenius/husky-gazebo-image-capture) — ROS2 simulation tools for collecting images and odometry.
-
-[ROS Husky Traffic Sign Detection](https://github.com/WikiGenius/ros-husky-traffic-sign-detection) — an earlier ROS 1 semantic-perception demo.
-
-**Research connection:** observations and task-relevant information provide the basis for evaluating sensing opportunities.
-
-</td>
-<td width="50%" valign="top">
-
-### 2 · Representation and estimation
-
-**What does the robot know about the scene?**
-
-[NeRF Lab](https://github.com/WikiGenius/nerf-lab) — camera geometry, neural density learning, and opacity/depth rendering with known poses.
-
-[GTSAM SLAM Vision](https://github.com/WikiGenius/GTSAM_SLAM_VISION) — visual pose-estimation and factor-graph experiments, with an illustrated [setup and trajectory gallery](https://github.com/WikiGenius/GTSAM_SLAM_VISION/blob/master/media/README.md).
-
-**Research connection:** scene and pose models can support visibility reasoning and planning under uncertainty.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 3 · Motion planning and geometry
-
-**Where and how should the robot move?**
-
-[Wheeled Mobile Manipulator Planning and Tracking](https://github.com/WikiGenius/wmm-planning-and-tracking) — MATLAB trajectory generation, base–arm coordination, and tracking simulations.
-
-Supporting work: [Screw Theory Toolkit](https://github.com/WikiGenius/RoboticScrewTheoryToolkit), with kinematics, Jacobians, and inverse kinematics.
-
-**Research connection:** feasible trajectories and reachable sensing poses form a foundation for introducing perception objectives.
-
-</td>
-<td width="50%" valign="top">
-
-### 4 · Control and task execution
-
-**How does a motion decision become robot action?**
-
-[ROS2 MoveIt Grasping Demo](https://github.com/WikiGenius/ros2-moveit-grasping-demo) — Cartesian approach, gripper control, and retreat from a target pose.
-
-**Research connection:** feedback and execution connect planned motion to the observations and actions a robot can achieve.
-
-</td>
-</tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/WikiGenius/wmm-planning-and-tracking"><img src="https://raw.githubusercontent.com/WikiGenius/wmm-planning-and-tracking/main/media/demo/full_stack_base_path_disturbance.png" width="100%" alt="MATLAB simulated base trajectory under disturbance for the wheeled mobile manipulator"></a>
+      <p><strong><a href="https://github.com/WikiGenius/wmm-planning-and-tracking">Wheeled Mobile Manipulator Planning and Tracking</a></strong></p>
+      <p>MATLAB planning, base–arm kinematic coordination, and reduced-coordinate dynamic tracking for a differential-drive mobile manipulator. Includes trajectory and disturbance-response studies.</p>
+      <sub>Motion planning · Nonholonomic systems · Control · Simulation-based</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/WikiGenius/nerf-lab"><img src="https://raw.githubusercontent.com/WikiGenius/nerf-lab/main/media/demo/multi_pose_ray_sampling.png" width="100%" alt="Camera viewpoints and ray sampling from a NeRF laboratory experiment"></a>
+      <p><strong><a href="https://github.com/WikiGenius/nerf-lab">NeRF Lab</a></strong></p>
+      <p>Camera geometry, ray sampling, neural density learning, and opacity/depth rendering. Controlled known-pose experiments—not a complete online NeRF-SLAM system.</p>
+      <sub>3-D perception · Camera geometry · Neural scene representation</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/WikiGenius/ros2-moveit-grasping-demo"><img src="https://raw.githubusercontent.com/WikiGenius/ros2-moveit-grasping-demo/master/images/demo.gif" width="100%" alt="Existing ROS2 MoveIt2 robotic grasping demonstration GIF"></a>
+      <p><strong><a href="https://github.com/WikiGenius/ros2-moveit-grasping-demo">ROS2 MoveIt Grasping Demo</a></strong></p>
+      <p>C++/ROS2 motion-planning and gripper-control workflows for approach, grasp, and retreat. The public demo illustrates execution stages; hardware validation is not claimed.</p>
+      <sub>ROS2 · MoveIt2 · Manipulation · Existing demo GIF</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/WikiGenius/GTSAM_SLAM_VISION"><img src="https://raw.githubusercontent.com/WikiGenius/GTSAM_SLAM_VISION/master/media/figures/trajectory-with-gtsam-3d.png" width="100%" alt="3D camera trajectory and visual landmarks from a MATLAB GTSAM-related estimation experiment"></a>
+      <p><strong><a href="https://github.com/WikiGenius/GTSAM_SLAM_VISION">GTSAM SLAM Vision</a></strong></p>
+      <p>MATLAB visual pose-estimation and factor-graph experiments using tag observations and geometric constraints. A learning/research prototype, not a benchmarked full SLAM system.</p>
+      <sub>State estimation · Factor graphs · Visual geometry</sub>
+    </td>
+  </tr>
 </table>
 
-For the closest connection to my planning research, start with **[WMM Planning and Tracking](https://github.com/WikiGenius/wmm-planning-and-tracking)**, followed by **[NeRF Lab](https://github.com/WikiGenius/nerf-lab)**. Each repository documents its own setup and current limitations.
+**Start here:** [WMM Planning and Tracking](https://github.com/WikiGenius/wmm-planning-and-tracking) for my most direct planning-and-control project, or [NeRF Lab](https://github.com/WikiGenius/nerf-lab) for camera geometry and scene representation. Each repository describes its actual setup, outputs, and limitations.
 
-## Foundations and ongoing work
+## How the work connects
 
-- **Control foundations:** [iPendulum](https://github.com/WikiGenius/ipendulum) covers classical and state-space control studies; [Cruise Control](https://github.com/WikiGenius/Cruise_control) explores motor control and energy analysis in Simulink.
-- **Indexes and templates:** [Control project index](https://github.com/WikiGenius/robotics-control-learning-labs) and [ROS2 lab scaffold](https://github.com/WikiGenius/ros2-mobile-robotics-labs) organize learning and planned work; they are not standalone runnable demonstrations.
-- **Planned application:** [Line-scan mobile-manipulator scaffold](https://github.com/WikiGenius/line-scan-mobile-manipulator-demo) explores a possible scanning and coverage test case; a complete runnable demo is still planned.
+**Sense → represent and estimate → plan → execute → evaluate.** The repositories provide examples of these separate capabilities; they are **not yet one integrated perception-aware robotics system**.
 
-Archived computer-vision prototypes, including [StreetStat](https://github.com/WikiGenius/StreetStat) and [CrowdScope](https://github.com/WikiGenius/CrowdScope), document the development of my perception background. Their historical setup instructions may require updates.
+- **Sensing and data capture:** [Husky Gazebo Image Capture](https://github.com/WikiGenius/husky-gazebo-image-capture) records simulated camera images and odometry; an [existing Gazebo/RViz demo GIF](https://github.com/WikiGenius/husky-gazebo-image-capture/blob/humble/media/husky_gazebo_capture_demo.gif) shows the workflow.
+- **Robot geometry:** [Robotic Screw Theory Toolkit](https://github.com/WikiGenius/RoboticScrewTheoryToolkit) explores kinematics, Jacobians, and inverse kinematics.
+- **Control foundations:** [iPendulum](https://github.com/WikiGenius/ipendulum) and [Cruise Control](https://github.com/WikiGenius/Cruise_control) document MATLAB/Simulink studies.
+- **Early-stage scaffolds:** [Line-Scan Mobile Manipulator Demo](https://github.com/WikiGenius/line-scan-mobile-manipulator-demo) and [ROS2 Mobile Robotics Labs](https://github.com/WikiGenius/ros2-mobile-robotics-labs) organize future experiments; they should not be read as finished integrated demonstrations.
+
+Earlier computer-vision projects, including [StreetStat](https://github.com/WikiGenius/StreetStat) and [CrowdScope](https://github.com/WikiGenius/CrowdScope), document part of my applied-perception background.
 
 ## Collaboration
 
-I welcome collaboration on perception-aware planning, sensing models, estimation, and reproducible robotics experiments. Open an issue in the relevant repository to discuss technical work.
+I welcome technical discussions about perception-aware motion planning, sensing models, state estimation, and reproducible robotics experiments. For a project-specific question, please open an issue in the relevant repository.
 
-**Tools:** Python · C++ · MATLAB/Simulink · ROS1 · ROS2 · MoveIt2 · Gazebo · GTSAM · PyTorch
+**Technical stack across projects:** Python · C++ · MATLAB/Simulink · ROS 1/2 · MoveIt2 · Gazebo · GTSAM · PyTorch
