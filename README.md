@@ -1,12 +1,12 @@
 # Muhammed Elyamani
 
 **PhD Researcher in Electrical Engineering (Control) · KFUPM**  
-**Active Perception · Motion Planning · State Estimation · Control · Robotic Reasoning**
+**Active Perception · Motion Planning · State Estimation · Control · Autonomous Robotics**
 
 [Curriculum vitae (PDF)](assets/Muhammed_Elyamani_CV.pdf)
 
 <p align="center">
-  <img src="assets/research_vision.png" alt="Long-term research vision: task-driven robotic autonomy integrating perception, reasoning, planning and control" width="100%">
+  <img src="assets/research_vision.png" alt="Long-term research vision: task-driven robotic autonomy integrating perception, reasoning, planning and control" width="75%">
 </p>
 
 <p align="center"><sub>Conceptual illustration of research direction; not an experimental result or a validated integrated system.</sub></p>
@@ -56,7 +56,7 @@ My current experimental plan begins with RGB area/virtual-line measurements usin
   </tr>
 </table>
 
-## Additional engineering work
+## Physical engineering — selected project
 
 <table>
   <tr>
@@ -65,12 +65,14 @@ My current experimental plan begins with RGB area/virtual-line measurements usin
     </td>
     <td width="70%" valign="top">
       <strong><a href="https://github.com/WikiGenius/reaction-wheel-control-lab">Reaction Wheel Control Lab</a></strong>
-      <p>Physical EE 381 teaching prototype combining SolidWorks CAD, fabrication, electromechanical dynamics, and MATLAB control studies.</p>
+      <p>Physical EE 381 teaching prototype combining SolidWorks CAD, fabrication, electromechanical dynamics, and MATLAB control studies. Demonstrates hands-on engineering alongside the simulation-based projects above.</p>
       <p><a href="https://github.com/WikiGenius/reaction-wheel-control-lab/blob/main/evidence/videos/reaction-wheel-demo.gif">Watch the bench GIF</a> · <a href="https://github.com/WikiGenius/reaction-wheel-control-lab">Explore CAD and simulation results</a></p>
       <sub>Bench footage documents physical operation; simulated control performance is reported separately, not as measured hardware tracking.</sub>
     </td>
   </tr>
 </table>
+
+**Selected project evidence:** [WMM report and simulation figures](https://github.com/WikiGenius/wmm-planning-and-tracking#report-and-presentation-artifacts) · [NeRF numerical results](https://github.com/WikiGenius/nerf-lab#results-summary) · [Reaction-wheel bench footage](https://github.com/WikiGenius/reaction-wheel-control-lab#reaction-wheel-control-lab).
 
 **Related foundations:** [Husky Gazebo image capture](https://github.com/WikiGenius/husky-gazebo-image-capture) (simulated sensing and odometry) · [Screw Theory Toolkit](https://github.com/WikiGenius/RoboticScrewTheoryToolkit) (kinematics and Jacobians) · [iPendulum](https://github.com/WikiGenius/ipendulum) (control exercises).
 
