@@ -3,6 +3,8 @@
 **PhD Researcher in Electrical Engineering (Control) · KFUPM**  
 **Perception-Aware Motion Planning · Active Sensing · State Estimation · Robotic Control**
 
+[Curriculum vitae (PDF)](assets/Muhammed_Elyamani_CV.pdf)
+
 <p align="center">
   <img src="assets/research_banner.jpg" alt="Conceptual illustration of a mobile robot, sensing trajectory, line-scanning sensor, and 3D surface representation" width="100%">
 </p>
