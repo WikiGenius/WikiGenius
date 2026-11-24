@@ -57,7 +57,7 @@ My current experimental plan begins with RGB area/virtual-line measurements usin
 <table>
   <tr>
     <td width="30%" valign="top">
-      <a href="https://github.com/WikiGenius/reaction-wheel-control-lab"><img src="https://raw.githubusercontent.com/WikiGenius/reaction-wheel-control-lab/main/evidence/photos/prototype-overview.jpg" width="180" alt="Photograph of the assembled reaction-wheel control teaching prototype, including flywheel, frame, electronics, and wiring"></a>
+      <a href="https://github.com/WikiGenius/reaction-wheel-control-lab"><img src="https://raw.githubusercontent.com/WikiGenius/reaction-wheel-control-lab/main/evidence/videos/reaction-wheel-demo.gif" width="180" alt="Animated bench demonstration of the physical reaction-wheel control teaching prototype"></a>
     </td>
     <td width="70%" valign="top">
       <strong><a href="https://github.com/WikiGenius/reaction-wheel-control-lab">Reaction Wheel Control Lab</a></strong>
