@@ -6,7 +6,7 @@
 [Curriculum vitae (PDF)](assets/Muhammed_Elyamani_CV.pdf)
 
 <p align="center">
-  <img src="assets/research_banner.jpg" alt="Conceptual research illustration of perception-aware robotic autonomy and sensing-motion coordination" width="100%">
+  <img src="assets/research_vision.png" alt="Long-term research vision: task-driven robotic autonomy integrating perception, reasoning, planning and control" width="100%">
 </p>
 
 <p align="center"><sub>Conceptual illustration of research direction; not an experimental result or a validated integrated system.</sub></p>
