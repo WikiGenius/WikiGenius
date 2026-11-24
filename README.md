@@ -52,7 +52,19 @@ My current experimental plan begins with RGB area/virtual-line measurements usin
 
 ## Additional engineering work
 
-**[Reaction Wheel Control Lab](https://github.com/WikiGenius/reaction-wheel-control-lab)** — Physical EE 381 teaching testbed with SolidWorks CAD, CNC-to-3D-printing fabrication changes, and MATLAB wheel/base dynamics and control studies. [Watch the bench GIF](https://github.com/WikiGenius/reaction-wheel-control-lab/blob/main/evidence/videos/reaction-wheel-demo.gif). The filmed hardware and simulated controllers are separate forms of evidence.
+<table>
+  <tr>
+    <td width="30%" valign="top">
+      <a href="https://github.com/WikiGenius/reaction-wheel-control-lab"><img src="https://raw.githubusercontent.com/WikiGenius/reaction-wheel-control-lab/main/evidence/photos/prototype-overview.jpg" width="180" alt="Photograph of the assembled reaction-wheel control teaching prototype, including flywheel, frame, electronics, and wiring"></a>
+    </td>
+    <td width="70%" valign="top">
+      <strong><a href="https://github.com/WikiGenius/reaction-wheel-control-lab">Reaction Wheel Control Lab</a></strong>
+      <p>Physical EE 381 teaching prototype combining SolidWorks CAD, fabrication, electromechanical dynamics, and MATLAB control studies.</p>
+      <p><a href="https://github.com/WikiGenius/reaction-wheel-control-lab/blob/main/evidence/videos/reaction-wheel-demo.gif">Watch the bench GIF</a> · <a href="https://github.com/WikiGenius/reaction-wheel-control-lab">Explore CAD and simulation results</a></p>
+      <sub>Bench footage documents physical operation; simulated control performance is reported separately, not as measured hardware tracking.</sub>
+    </td>
+  </tr>
+</table>
 
 **Related foundations:** [Husky Gazebo image capture](https://github.com/WikiGenius/husky-gazebo-image-capture) (simulated sensing and odometry) · [Screw Theory Toolkit](https://github.com/WikiGenius/RoboticScrewTheoryToolkit) (kinematics and Jacobians) · [iPendulum](https://github.com/WikiGenius/ipendulum) (control exercises).
 
