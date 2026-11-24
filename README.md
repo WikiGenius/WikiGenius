@@ -1,23 +1,27 @@
 # Muhammed Elyamani
 
 **PhD Researcher in Electrical Engineering (Control) · KFUPM**  
-**Perception-Aware Motion Planning · Active Sensing · State Estimation · Robotic Control**
+**Active Perception · Motion Planning · State Estimation · Control · Robotic Reasoning**
 
 [Curriculum vitae (PDF)](assets/Muhammed_Elyamani_CV.pdf)
 
 <p align="center">
-  <img src="assets/research_banner.jpg" alt="Conceptual illustration of a mobile robot, sensing trajectory, line-scanning sensor, and 3D surface representation" width="100%">
+  <img src="assets/research_banner.jpg" alt="Conceptual research illustration of perception-aware robotic autonomy and sensing-motion coordination" width="100%">
 </p>
 
-<p align="center"><sub>Conceptual research illustration—not a photograph of my experimental setup or a validated integrated system.</sub></p>
+<p align="center"><sub>Conceptual illustration of research direction; not an experimental result or a validated integrated system.</sub></p>
 
-## Research focus
+## Research vision
 
-I study **how robots should move to acquire useful information** and how sensing requirements should influence planning and control. My interests connect geometry, motion feasibility, state estimation, sensing quality, and task-driven decision-making.
+My long-term goal is to develop **task-driven autonomous robotic systems** that integrate active perception, state estimation, motion planning, control, and reasoning. I am interested in how robots determine what information a task requires, select informative and physically feasible actions, and use new observations to improve subsequent decisions under uncertainty.
 
-**Current research question:** When does changing a sensing trajectory improve independently measured observation quality compared with a well-tuned geometric scanning baseline?
+## Current PhD research
 
-My current experimental plan begins with RGB area/virtual-line measurements using an OAK-D camera, with a planned transfer to RGB-D and pushbroom hyperspectral sensing for 3-D material mapping. These are testbeds for a broader research direction, not completed integrated demonstrations or permanent restrictions on the sensors and robots I study.
+**Perception-Aware Motion Planning and Control for Robotic Sensing**
+
+I investigate how sensing requirements influence robot motion and how motion affects observation quality. My current research question is: When does changing a sensing trajectory improve independently measured observation quality compared with a well-tuned geometric scanning baseline?
+
+My current experimental plan begins with RGB area/virtual-line measurements using an OAK-D camera, with a planned transfer to RGB-D and pushbroom hyperspectral sensing for 3-D material mapping. These are testbeds for the broader research direction, not completed integrated demonstrations. Longer-term application interests include inspection, exploration, navigation, and manipulation.
 
 ## Selected projects
 
@@ -74,6 +78,6 @@ These repositories illustrate complementary **sensing, estimation, planning, and
 
 ## Collaboration
 
-I welcome technical discussions about perception-aware motion planning, sensing models, state estimation, and reproducible robotics experiments. For a project-specific question, please open an issue in the relevant repository.
+I welcome technical discussions about active perception, motion planning and control, state estimation, task-driven robotic autonomy, and reproducible robotics experiments. For a project-specific question, please open an issue in the relevant repository.
 
 **Technical stack across projects:** Python · C++ · MATLAB/Simulink · ROS 1/2 · MoveIt2 · Gazebo · GTSAM · PyTorch
