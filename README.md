@@ -50,18 +50,13 @@ My current experimental plan begins with RGB area/virtual-line measurements usin
   </tr>
 </table>
 
-**Start here:** [WMM Planning and Tracking](https://github.com/WikiGenius/wmm-planning-and-tracking) for my most direct planning-and-control project, or [NeRF Lab](https://github.com/WikiGenius/nerf-lab) for camera geometry and scene representation. Each repository describes its actual setup, outputs, and limitations.
+## Additional engineering work
 
-## How the work connects
+**[Reaction Wheel Control Lab](https://github.com/WikiGenius/reaction-wheel-control-lab)** — Physical EE 381 teaching testbed with SolidWorks CAD, CNC-to-3D-printing fabrication changes, and MATLAB wheel/base dynamics and control studies. [Watch the bench GIF](https://github.com/WikiGenius/reaction-wheel-control-lab/blob/main/evidence/videos/reaction-wheel-demo.gif). The filmed hardware and simulated controllers are separate forms of evidence.
 
-**Sense → represent and estimate → plan → execute → evaluate.** The repositories provide examples of these separate capabilities; they are **not yet one integrated perception-aware robotics system**.
+**Related foundations:** [Husky Gazebo image capture](https://github.com/WikiGenius/husky-gazebo-image-capture) (simulated sensing and odometry) · [Screw Theory Toolkit](https://github.com/WikiGenius/RoboticScrewTheoryToolkit) (kinematics and Jacobians) · [iPendulum](https://github.com/WikiGenius/ipendulum) (control exercises).
 
-- **Sensing and data capture:** [Husky Gazebo Image Capture](https://github.com/WikiGenius/husky-gazebo-image-capture) records simulated camera images and odometry; an [existing Gazebo/RViz demo GIF](https://github.com/WikiGenius/husky-gazebo-image-capture/blob/humble/media/husky_gazebo_capture_demo.gif) shows the workflow.
-- **Robot geometry:** [Robotic Screw Theory Toolkit](https://github.com/WikiGenius/RoboticScrewTheoryToolkit) explores kinematics, Jacobians, and inverse kinematics.
-- **Control foundations:** [iPendulum](https://github.com/WikiGenius/ipendulum) and [Cruise Control](https://github.com/WikiGenius/Cruise_control) document MATLAB/Simulink studies.
-- **Early-stage scaffolds:** [Line-Scan Mobile Manipulator Demo](https://github.com/WikiGenius/line-scan-mobile-manipulator-demo) and [ROS2 Mobile Robotics Labs](https://github.com/WikiGenius/ros2-mobile-robotics-labs) organize future experiments; they should not be read as finished integrated demonstrations.
-
-Earlier computer-vision projects, including [StreetStat](https://github.com/WikiGenius/StreetStat) and [CrowdScope](https://github.com/WikiGenius/CrowdScope), document part of my applied-perception background.
+These repositories illustrate complementary **sensing, estimation, planning, and control** capabilities; they are not presented as a single integrated PhD system.
 
 ## Collaboration
 
