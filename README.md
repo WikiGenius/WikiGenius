@@ -28,10 +28,11 @@ My current experimental plan begins with RGB area/virtual-line measurements usin
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/WikiGenius/wmm-planning-and-tracking"><img src="https://raw.githubusercontent.com/WikiGenius/wmm-planning-and-tracking/main/media/demo/full_stack_base_path_disturbance.png" width="100%" alt="MATLAB simulated base trajectory under disturbance for the wheeled mobile manipulator"></a>
-      <p><strong><a href="https://github.com/WikiGenius/wmm-planning-and-tracking">Wheeled Mobile Manipulator Planning and Tracking</a></strong></p>
-      <p>MATLAB planning, base–arm kinematic coordination, and reduced-coordinate dynamic tracking for a differential-drive mobile manipulator. Includes trajectory and disturbance-response studies.</p>
-      <sub>Motion planning · Nonholonomic systems · Control · Simulation-based</sub>
+      <a href="https://github.com/WikiGenius/wmm-planning-and-tracking"><img src="https://raw.githubusercontent.com/WikiGenius/wmm-planning-and-tracking/main/adaptive-control/nominal-vs-adaptive.gif" width="100%" alt="Simulation of nominal versus adaptive feedback linearization for a wheeled mobile manipulator"></a>
+      <p><strong><a href="https://github.com/WikiGenius/wmm-planning-and-tracking">Wheeled Mobile Manipulator: Planning and Control</a></strong></p>
+      <p>Three-layer MATLAB framework for motion planning, base–arm kinematic coordination and torque-level tracking, with a separate adaptive disturbance-rejection benchmark.</p>
+      <sub>Motion planning · Robot dynamics · Nonholonomic systems · Adaptive control</sub>
+      <p><sub>Original May 2026 simulation GIF. <a href="https://github.com/WikiGenius/wmm-planning-and-tracking#adaptive-disturbance-rejection">Newer benchmark and quantitative results</a> are reported separately.</sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/WikiGenius/nerf-lab"><img src="https://raw.githubusercontent.com/WikiGenius/nerf-lab/main/media/demo/multi_pose_ray_sampling.png" width="100%" alt="Camera viewpoints and ray sampling from a NeRF laboratory experiment"></a>
@@ -45,7 +46,7 @@ My current experimental plan begins with RGB area/virtual-line measurements usin
       <a href="https://github.com/WikiGenius/ros2-moveit-grasping-demo"><img src="https://raw.githubusercontent.com/WikiGenius/ros2-moveit-grasping-demo/master/images/demo.gif" width="100%" alt="Existing ROS2 MoveIt2 robotic grasping demonstration GIF"></a>
       <p><strong><a href="https://github.com/WikiGenius/ros2-moveit-grasping-demo">ROS2 MoveIt Grasping Demo</a></strong></p>
       <p>C++/ROS2 motion-planning and gripper-control workflows for approach, grasp, and retreat. The public demo illustrates execution stages; hardware validation is not claimed.</p>
-      <sub>ROS2 · MoveIt2 · Manipulation · Existing demo GIF</sub>
+      <sub>ROS2 · MoveIt2 · C++ · Manipulation</sub>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/WikiGenius/GTSAM_SLAM_VISION"><img src="https://raw.githubusercontent.com/WikiGenius/GTSAM_SLAM_VISION/master/media/figures/trajectory-with-gtsam-3d.png" width="100%" alt="3D camera trajectory and visual landmarks from a MATLAB GTSAM-related estimation experiment"></a>
@@ -72,7 +73,7 @@ My current experimental plan begins with RGB area/virtual-line measurements usin
   </tr>
 </table>
 
-**Selected project evidence:** [WMM report and simulation figures](https://github.com/WikiGenius/wmm-planning-and-tracking#report-and-presentation-artifacts) · [NeRF numerical results](https://github.com/WikiGenius/nerf-lab#results-summary) · [Reaction-wheel bench footage](https://github.com/WikiGenius/reaction-wheel-control-lab#reaction-wheel-control-lab).
+**Selected project evidence:** [WMM simulation benchmark](https://github.com/WikiGenius/wmm-planning-and-tracking#adaptive-disturbance-rejection) · [NeRF numerical results](https://github.com/WikiGenius/nerf-lab#results-summary) · [Reaction-wheel bench footage](https://github.com/WikiGenius/reaction-wheel-control-lab#reaction-wheel-control-lab).
 
 **Related foundations:** [Husky Gazebo image capture](https://github.com/WikiGenius/husky-gazebo-image-capture) (simulated sensing and odometry) · [Screw Theory Toolkit](https://github.com/WikiGenius/RoboticScrewTheoryToolkit) (kinematics and Jacobians) · [iPendulum](https://github.com/WikiGenius/ipendulum) (control exercises).
 
